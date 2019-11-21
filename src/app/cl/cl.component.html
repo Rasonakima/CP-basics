@@ -1,1 +1,9 @@
-<p>cl works!</p>
+<div class="row">
+  <div *ngFor="let c of clist" class="col-*" style="padding: 3px;">
+    <img
+      class="img-thumbnail"
+      src="{{ imgPlaceHolderURL }}/FFFFFF/000000?text={{ c.symbol }}"
+      alt="{{ c.name }}"
+    />
+  </div>
+</div>
