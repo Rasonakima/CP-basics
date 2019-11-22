@@ -9,6 +9,7 @@ import { ClService } from "../services/cl.service";
 export class ClComponent implements OnInit {
   clist: Array<any>;
   imgPlaceHolderURL = "https://via.placeholder.com/64";
+  eName = "";
 
   constructor(private clService: ClService) {}
 

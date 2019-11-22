@@ -1,5 +1,29 @@
 <div class="row">
-  <div *ngFor="let c of clist" class="col-*" style="padding: 3px;">
+  <div class="input-group mb-1">
+    <input
+      type="text"
+      class="form-control"
+      placeholder="C name"
+      aria-label="C name"
+      aria-describedby="button-addon1"
+      [(ngModel)]="eName"
+    />
+    <div class="input-group-append">
+      <button
+        class="btn btn-outline-success"
+        type="button"
+        id="button-addon1"
+        disabled
+      >
+        Search {{ eName }}
+      </button>
+    </div>
+  </div>
+  <div
+    *ngFor="let c of clist | filterName: eName"
+    class="col-*"
+    style="padding: 3px;"
+  >
     <img
       class="img-thumbnail"
       src="{{ imgPlaceHolderURL }}/FFFFFF/000000?text={{ c.symbol }}"
