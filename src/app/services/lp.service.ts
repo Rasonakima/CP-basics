@@ -5,12 +5,16 @@ import { Observable } from "rxjs";
 @Injectable({
   providedIn: "root"
 })
-export class ClService {
-  public ELEMENT_API = "//localhost:3000/elements";
+export class LpService {
+  public GROUP_API = "//localhost:3000/groups";
 
   constructor(private http: HttpClient) {}
 
   public getAll(): Observable<any> {
-    return this.http.get(this.ELEMENT_API);
+    return this.http.get(this.GROUP_API);
+  }
+
+  public getByGroup(groupName: string): Observable<any> {
+    return this.http.get(this.GROUP_API + "?name=" + groupName);
   }
 }

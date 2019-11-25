@@ -3770,5 +3770,62 @@
       "electronegativity_pauling": null,
       "ionization_energies": []
     }
+  ],
+  "groups": [
+    {
+      "name": "A",
+      "level": [
+        { "number": 1, "content": [] },
+        { "number": 2, "content": [] },
+        { "number": 3, "content": [] },
+        { "number": 4, "content": [] },
+        { "number": 5, "content": [] },
+        { "number": 6, "content": [] }
+      ]
+    },
+    {
+      "name": "B",
+      "level": [
+        { "number": 1, "content": [] },
+        { "number": 2, "content": [] },
+        { "number": 3, "content": [] },
+        { "number": 4, "content": [] },
+        { "number": 5, "content": [] },
+        { "number": 6, "content": [] }
+      ]
+    },
+    {
+      "name": "C",
+      "level": [
+        { "number": 1, "content": [] },
+        { "number": 2, "content": [] },
+        { "number": 3, "content": [] },
+        { "number": 4, "content": [] },
+        { "number": 5, "content": [] },
+        { "number": 6, "content": [] }
+      ]
+    },
+    {
+      "name": "D",
+      "level": [
+        { "number": 1, "content": [] },
+        { "number": 2, "content": [] },
+        { "number": 3, "content": [] },
+        { "number": 4, "content": [] },
+        { "number": 5, "content": [] },
+        { "number": 6, "content": [] }
+      ]
+    },
+    {
+      "name": "E",
+      "level": [
+        { "number": 1, "content": [] },
+        { "number": 2, "content": [] },
+        { "number": 3, "content": [] },
+        { "number": 4, "content": [] },
+        { "number": 5, "content": [] },
+        { "number": 6, "content": [] }
+      ]
+    }
   ]
 }
