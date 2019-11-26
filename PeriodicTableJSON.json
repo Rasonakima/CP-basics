@@ -1,7 +1,7 @@
 {
   "elements": [
     {
-      "name": "Hydrogen",
+      "id": "Hydrogen",
       "appearance": "colorless gas",
       "atomic_mass": 1.008,
       "boil": 20.271,
@@ -21,14 +21,18 @@
       "symbol": "H",
       "xpos": 1,
       "ypos": 1,
-      "shells": [1],
+      "shells": [
+        1
+      ],
       "electron_configuration": "1s1",
       "electron_affinity": 72.769,
       "electronegativity_pauling": 2.2,
-      "ionization_energies": [1312.0]
+      "ionization_energies": [
+        1312
+      ]
     },
     {
-      "name": "Helium",
+      "id": "Helium",
       "appearance": "colorless gas, exhibiting a red-orange glow when placed in a high-voltage electric field",
       "atomic_mass": 4.0026022,
       "boil": 4.222,
@@ -48,14 +52,19 @@
       "symbol": "He",
       "xpos": 18,
       "ypos": 1,
-      "shells": [2],
+      "shells": [
+        2
+      ],
       "electron_configuration": "1s2",
       "electron_affinity": -48,
       "electronegativity_pauling": null,
-      "ionization_energies": [2372.3, 5250.5]
+      "ionization_energies": [
+        2372.3,
+        5250.5
+      ]
     },
     {
-      "name": "Lithium",
+      "id": "Lithium",
       "appearance": "silvery-white",
       "atomic_mass": 6.94,
       "boil": 1603,
@@ -71,18 +80,25 @@
       "phase": "Solid",
       "source": "https://en.wikipedia.org/wiki/Lithium",
       "spectral_img": null,
-      "summary": "Lithium (from Greek:\u03bb\u03af\u03b8\u03bf\u03c2 lithos, \"stone\") is a chemical element with the symbol Li and atomic number 3. It is a soft, silver-white metal belonging to the alkali metal group of chemical elements. Under standard conditions it is the lightest metal and the least dense solid element.",
+      "summary": "Lithium (from Greek:λίθος lithos, \"stone\") is a chemical element with the symbol Li and atomic number 3. It is a soft, silver-white metal belonging to the alkali metal group of chemical elements. Under standard conditions it is the lightest metal and the least dense solid element.",
       "symbol": "Li",
       "xpos": 1,
       "ypos": 2,
-      "shells": [2, 1],
+      "shells": [
+        2,
+        1
+      ],
       "electron_configuration": "1s2 2s1",
       "electron_affinity": 59.6326,
       "electronegativity_pauling": 0.98,
-      "ionization_energies": [520.2, 7298.1, 11815.0]
+      "ionization_energies": [
+        520.2,
+        7298.1,
+        11815
+      ]
     },
     {
-      "name": "Beryllium",
+      "id": "Beryllium",
       "appearance": "white-gray metallic",
       "atomic_mass": 9.01218315,
       "boil": 2742,
@@ -102,14 +118,22 @@
       "symbol": "Be",
       "xpos": 2,
       "ypos": 2,
-      "shells": [2, 2],
+      "shells": [
+        2,
+        2
+      ],
       "electron_configuration": "1s2 2s2",
       "electron_affinity": -48,
       "electronegativity_pauling": 1.57,
-      "ionization_energies": [899.5, 1757.1, 14848.7, 21006.6]
+      "ionization_energies": [
+        899.5,
+        1757.1,
+        14848.7,
+        21006.6
+      ]
     },
     {
-      "name": "Boron",
+      "id": "Boron",
       "appearance": "black-brown",
       "atomic_mass": 10.81,
       "boil": 4200,
@@ -129,14 +153,23 @@
       "symbol": "B",
       "xpos": 13,
       "ypos": 2,
-      "shells": [2, 3],
+      "shells": [
+        2,
+        3
+      ],
       "electron_configuration": "1s2 2s2 2p1",
       "electron_affinity": 26.989,
       "electronegativity_pauling": 2.04,
-      "ionization_energies": [800.6, 2427.1, 3659.7, 25025.8, 32826.7]
+      "ionization_energies": [
+        800.6,
+        2427.1,
+        3659.7,
+        25025.8,
+        32826.7
+      ]
     },
     {
-      "name": "Carbon",
+      "id": "Carbon",
       "appearance": null,
       "atomic_mass": 12.011,
       "boil": null,
@@ -152,18 +185,28 @@
       "phase": "Solid",
       "source": "https://en.wikipedia.org/wiki/Carbon",
       "spectral_img": "https://en.wikipedia.org/wiki/File:Carbon_Spectra.jpg",
-      "summary": "Carbon (from Latin:carbo \"coal\") is a chemical element with symbol C and atomic number 6. On the periodic table, it is the first (row 2) of six elements in column (group) 14, which have in common the composition of their outer electron shell. It is nonmetallic and tetravalent\u2014making four electrons available to form covalent chemical bonds.",
+      "summary": "Carbon (from Latin:carbo \"coal\") is a chemical element with symbol C and atomic number 6. On the periodic table, it is the first (row 2) of six elements in column (group) 14, which have in common the composition of their outer electron shell. It is nonmetallic and tetravalent—making four electrons available to form covalent chemical bonds.",
       "symbol": "C",
       "xpos": 14,
       "ypos": 2,
-      "shells": [2, 4],
+      "shells": [
+        2,
+        4
+      ],
       "electron_configuration": "1s2 2s2 2p2",
       "electron_affinity": 121.7763,
       "electronegativity_pauling": 2.55,
-      "ionization_energies": [1086.5, 2352.6, 4620.5, 6222.7, 37831, 47277.0]
+      "ionization_energies": [
+        1086.5,
+        2352.6,
+        4620.5,
+        6222.7,
+        37831,
+        47277
+      ]
     },
     {
-      "name": "Nitrogen",
+      "id": "Nitrogen",
       "appearance": "colorless gas, liquid or solid",
       "atomic_mass": 14.007,
       "boil": 77.355,
@@ -183,7 +226,10 @@
       "symbol": "N",
       "xpos": 15,
       "ypos": 2,
-      "shells": [2, 5],
+      "shells": [
+        2,
+        5
+      ],
       "electron_configuration": "1s2 2s2 2p3",
       "electron_affinity": -6.8,
       "electronegativity_pauling": 3.04,
@@ -191,14 +237,14 @@
         1402.3,
         2856,
         4578.1,
-        7475.0,
+        7475,
         9444.9,
         53266.6,
         64360
       ]
     },
     {
-      "name": "Oxygen",
+      "id": "Oxygen",
       "appearance": null,
       "atomic_mass": 15.999,
       "boil": 90.188,
@@ -218,7 +264,10 @@
       "symbol": "O",
       "xpos": 16,
       "ypos": 2,
-      "shells": [2, 6],
+      "shells": [
+        2,
+        6
+      ],
       "electron_configuration": "1s2 2s2 2p4",
       "electron_affinity": 140.976,
       "electronegativity_pauling": 3.44,
@@ -230,18 +279,18 @@
         10989.5,
         13326.5,
         71330,
-        84078.0
+        84078
       ]
     },
     {
-      "name": "Fluorine",
+      "id": "Fluorine",
       "appearance": null,
       "atomic_mass": 18.9984031636,
       "boil": 85.03,
       "category": "diatomic nonmetal",
       "color": null,
       "density": 1.696,
-      "discovered_by": "Andr\u00e9-Marie Amp\u00e8re",
+      "discovered_by": "André-Marie Ampère",
       "melt": 53.48,
       "molar_heat": null,
       "named_by": "Humphry Davy",
@@ -254,12 +303,15 @@
       "symbol": "F",
       "xpos": 17,
       "ypos": 2,
-      "shells": [2, 7],
+      "shells": [
+        2,
+        7
+      ],
       "electron_configuration": "1s2 2s2 2p5",
       "electron_affinity": 328.1649,
       "electronegativity_pauling": 3.98,
       "ionization_energies": [
-        1681.0,
+        1681,
         3374.2,
         6050.4,
         8407.7,
@@ -271,7 +323,7 @@
       ]
     },
     {
-      "name": "Neon",
+      "id": "Neon",
       "appearance": "colorless gas exhibiting an orange-red glow when placed in a high voltage electric field",
       "atomic_mass": 20.17976,
       "boil": 27.104,
@@ -291,7 +343,10 @@
       "symbol": "Ne",
       "xpos": 18,
       "ypos": 2,
-      "shells": [2, 8],
+      "shells": [
+        2,
+        8
+      ],
       "electron_configuration": "1s2 2s2 2p6",
       "electron_affinity": -116,
       "electronegativity_pauling": null,
@@ -302,14 +357,14 @@
         9371,
         12177,
         15238,
-        19999.0,
+        19999,
         23069.5,
         115379.5,
         131432
       ]
     },
     {
-      "name": "Sodium",
+      "id": "Sodium",
       "appearance": "silvery white metallic",
       "atomic_mass": 22.989769282,
       "boil": 1156.09,
@@ -325,11 +380,15 @@
       "phase": "Solid",
       "source": "https://en.wikipedia.org/wiki/Sodium",
       "spectral_img": "https://en.wikipedia.org/wiki/File:Sodium_Spectra.jpg",
-      "summary": "Sodium /\u02c8so\u028adi\u0259m/ is a chemical element with symbol Na (from Ancient Greek \u039d\u03ac\u03c4\u03c1\u03b9\u03bf) and atomic number 11. It is a soft, silver-white, highly reactive metal. In the Periodic table it is in column 1 (alkali metals), and shares with the other six elements in that column that it has a single electron in its outer shell, which it readily donates, creating a positively charged atom - a cation.",
+      "summary": "Sodium /ˈsoʊdiəm/ is a chemical element with symbol Na (from Ancient Greek Νάτριο) and atomic number 11. It is a soft, silver-white, highly reactive metal. In the Periodic table it is in column 1 (alkali metals), and shares with the other six elements in that column that it has a single electron in its outer shell, which it readily donates, creating a positively charged atom - a cation.",
       "symbol": "Na",
       "xpos": 1,
       "ypos": 3,
-      "shells": [2, 8, 1],
+      "shells": [
+        2,
+        8,
+        1
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s1",
       "electron_affinity": 52.867,
       "electronegativity_pauling": 0.93,
@@ -348,7 +407,7 @@
       ]
     },
     {
-      "name": "Magnesium",
+      "id": "Magnesium",
       "appearance": "shiny grey solid",
       "atomic_mass": 24.305,
       "boil": 1363,
@@ -368,7 +427,11 @@
       "symbol": "Mg",
       "xpos": 2,
       "ypos": 3,
-      "shells": [2, 8, 2],
+      "shells": [
+        2,
+        8,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2",
       "electron_affinity": -40,
       "electronegativity_pauling": 1.31,
@@ -388,7 +451,7 @@
       ]
     },
     {
-      "name": "Aluminium",
+      "id": "Aluminium",
       "appearance": "silvery gray metallic",
       "atomic_mass": 26.98153857,
       "boil": 2743,
@@ -408,7 +471,11 @@
       "symbol": "Al",
       "xpos": 13,
       "ypos": 3,
-      "shells": [2, 8, 3],
+      "shells": [
+        2,
+        8,
+        3
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p1",
       "electron_affinity": 41.762,
       "electronegativity_pauling": 1.61,
@@ -429,14 +496,14 @@
       ]
     },
     {
-      "name": "Silicon",
+      "id": "Silicon",
       "appearance": "crystalline, reflective with bluish-tinged faces",
       "atomic_mass": 28.085,
       "boil": 3538,
       "category": "metalloid",
       "color": null,
       "density": 2.329,
-      "discovered_by": "J\u00f6ns Jacob Berzelius",
+      "discovered_by": "Jöns Jacob Berzelius",
       "melt": 1687,
       "molar_heat": 19.789,
       "named_by": "Thomas Thomson (chemist)",
@@ -449,7 +516,11 @@
       "symbol": "Si",
       "xpos": 14,
       "ypos": 3,
-      "shells": [2, 8, 4],
+      "shells": [
+        2,
+        8,
+        4
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p2",
       "electron_affinity": 134.0684,
       "electronegativity_pauling": 1.9,
@@ -471,7 +542,7 @@
       ]
     },
     {
-      "name": "Phosphorus",
+      "id": "Phosphorus",
       "appearance": "colourless, waxy white, yellow, scarlet, red, violet, black",
       "atomic_mass": 30.9737619985,
       "boil": null,
@@ -487,11 +558,15 @@
       "phase": "Solid",
       "source": "https://en.wikipedia.org/wiki/Phosphorus",
       "spectral_img": null,
-      "summary": "Phosphorus is a chemical element with symbol P and atomic number 15. As an element, phosphorus exists in two major forms\u2014white phosphorus and red phosphorus\u2014but due to its high reactivity, phosphorus is never found as a free element on Earth. Instead phosphorus-containing minerals are almost always present in their maximally oxidised state, as inorganic phosphate rocks.",
+      "summary": "Phosphorus is a chemical element with symbol P and atomic number 15. As an element, phosphorus exists in two major forms—white phosphorus and red phosphorus—but due to its high reactivity, phosphorus is never found as a free element on Earth. Instead phosphorus-containing minerals are almost always present in their maximally oxidised state, as inorganic phosphate rocks.",
       "symbol": "P",
       "xpos": 15,
       "ypos": 3,
-      "shells": [2, 8, 5],
+      "shells": [
+        2,
+        8,
+        5
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p3",
       "electron_affinity": 72.037,
       "electronegativity_pauling": 2.19,
@@ -514,7 +589,7 @@
       ]
     },
     {
-      "name": "Sulfur",
+      "id": "Sulfur",
       "appearance": "lemon yellow sintered microcrystals",
       "atomic_mass": 32.06,
       "boil": 717.8,
@@ -534,7 +609,11 @@
       "symbol": "S",
       "xpos": 16,
       "ypos": 3,
-      "shells": [2, 8, 6],
+      "shells": [
+        2,
+        8,
+        6
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p4",
       "electron_affinity": 200.4101,
       "electronegativity_pauling": 2.58,
@@ -558,7 +637,7 @@
       ]
     },
     {
-      "name": "Chlorine",
+      "id": "Chlorine",
       "appearance": "pale yellow-green gas",
       "atomic_mass": 35.45,
       "boil": 239.11,
@@ -578,7 +657,11 @@
       "symbol": "Cl",
       "xpos": 17,
       "ypos": 3,
-      "shells": [2, 8, 7],
+      "shells": [
+        2,
+        8,
+        7
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p5",
       "electron_affinity": 348.575,
       "electronegativity_pauling": 3.16,
@@ -603,7 +686,7 @@
       ]
     },
     {
-      "name": "Argon",
+      "id": "Argon",
       "appearance": "colorless gas exhibiting a lilac/violet glow when placed in a high voltage electric field",
       "atomic_mass": 39.9481,
       "boil": 87.302,
@@ -623,7 +706,11 @@
       "symbol": "Ar",
       "xpos": 18,
       "ypos": 3,
-      "shells": [2, 8, 8],
+      "shells": [
+        2,
+        8,
+        8
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6",
       "electron_affinity": -96,
       "electronegativity_pauling": null,
@@ -649,7 +736,7 @@
       ]
     },
     {
-      "name": "Potassium",
+      "id": "Potassium",
       "appearance": "silvery gray",
       "atomic_mass": 39.09831,
       "boil": 1032,
@@ -669,7 +756,12 @@
       "symbol": "K",
       "xpos": 1,
       "ypos": 4,
-      "shells": [2, 8, 8, 1],
+      "shells": [
+        2,
+        8,
+        8,
+        1
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s1",
       "electron_affinity": 48.383,
       "electronegativity_pauling": 0.82,
@@ -696,7 +788,7 @@
       ]
     },
     {
-      "name": "Calcium",
+      "id": "Calcium",
       "appearance": null,
       "atomic_mass": 40.0784,
       "boil": 1757,
@@ -716,10 +808,15 @@
       "symbol": "Ca",
       "xpos": 2,
       "ypos": 4,
-      "shells": [2, 8, 8, 2],
+      "shells": [
+        2,
+        8,
+        8,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2",
       "electron_affinity": 2.37,
-      "electronegativity_pauling": 1.0,
+      "electronegativity_pauling": 1,
       "ionization_energies": [
         589.8,
         1145.4,
@@ -744,7 +841,7 @@
       ]
     },
     {
-      "name": "Scandium",
+      "id": "Scandium",
       "appearance": "silvery white",
       "atomic_mass": 44.9559085,
       "boil": 3109,
@@ -764,13 +861,18 @@
       "symbol": "Sc",
       "xpos": 3,
       "ypos": 4,
-      "shells": [2, 8, 9, 2],
+      "shells": [
+        2,
+        8,
+        9,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d1 4s2",
       "electron_affinity": 18,
       "electronegativity_pauling": 1.36,
       "ionization_energies": [
         633.1,
-        1235.0,
+        1235,
         2388.6,
         7090.6,
         8843,
@@ -793,7 +895,7 @@
       ]
     },
     {
-      "name": "Titanium",
+      "id": "Titanium",
       "appearance": "silvery grey-white metallic",
       "atomic_mass": 47.8671,
       "boil": 3560,
@@ -813,7 +915,12 @@
       "symbol": "Ti",
       "xpos": 4,
       "ypos": 4,
-      "shells": [2, 8, 10, 2],
+      "shells": [
+        2,
+        8,
+        10,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d2 4s2",
       "electron_affinity": 7.289,
       "electronegativity_pauling": 1.54,
@@ -843,14 +950,14 @@
       ]
     },
     {
-      "name": "Vanadium",
+      "id": "Vanadium",
       "appearance": "blue-silver-grey metal",
       "atomic_mass": 50.94151,
       "boil": 3680,
       "category": "transition metal",
       "color": null,
-      "density": 6.0,
-      "discovered_by": "Andr\u00e9s Manuel del R\u00edo",
+      "density": 6,
+      "discovered_by": "Andrés Manuel del Río",
       "melt": 2183,
       "molar_heat": 24.89,
       "named_by": "Isotopes of vanadium",
@@ -863,7 +970,12 @@
       "symbol": "V",
       "xpos": 5,
       "ypos": 4,
-      "shells": [2, 8, 11, 2],
+      "shells": [
+        2,
+        8,
+        11,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d3 4s2",
       "electron_affinity": 50.911,
       "electronegativity_pauling": 1.63,
@@ -894,7 +1006,7 @@
       ]
     },
     {
-      "name": "Chromium",
+      "id": "Chromium",
       "appearance": "silvery metallic",
       "atomic_mass": 51.99616,
       "boil": 2944,
@@ -914,7 +1026,12 @@
       "symbol": "Cr",
       "xpos": 6,
       "ypos": 4,
-      "shells": [2, 8, 13, 1],
+      "shells": [
+        2,
+        8,
+        13,
+        1
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d5 4s1",
       "electron_affinity": 65.21,
       "electronegativity_pauling": 1.66,
@@ -946,7 +1063,7 @@
       ]
     },
     {
-      "name": "Manganese",
+      "id": "Manganese",
       "appearance": "silvery metallic",
       "atomic_mass": 54.9380443,
       "boil": 2334,
@@ -966,13 +1083,18 @@
       "symbol": "Mn",
       "xpos": 7,
       "ypos": 4,
-      "shells": [2, 8, 13, 2],
+      "shells": [
+        2,
+        8,
+        13,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d5 4s2",
       "electron_affinity": -50,
       "electronegativity_pauling": 1.55,
       "ionization_energies": [
         717.3,
-        1509.0,
+        1509,
         3248,
         4940,
         6990,
@@ -999,7 +1121,7 @@
       ]
     },
     {
-      "name": "Iron",
+      "id": "Iron",
       "appearance": "lustrous metallic with a grayish tinge",
       "atomic_mass": 55.8452,
       "boil": 3134,
@@ -1019,7 +1141,12 @@
       "symbol": "Fe",
       "xpos": 8,
       "ypos": 4,
-      "shells": [2, 8, 14, 2],
+      "shells": [
+        2,
+        8,
+        14,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d6 4s2",
       "electron_affinity": 14.785,
       "electronegativity_pauling": 1.83,
@@ -1053,7 +1180,7 @@
       ]
     },
     {
-      "name": "Cobalt",
+      "id": "Cobalt",
       "appearance": "hard lustrous gray metal",
       "atomic_mass": 58.9331944,
       "boil": 3200,
@@ -1073,7 +1200,12 @@
       "symbol": "Co",
       "xpos": 9,
       "ypos": 4,
-      "shells": [2, 8, 15, 2],
+      "shells": [
+        2,
+        8,
+        15,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d7 4s2",
       "electron_affinity": 63.898,
       "electronegativity_pauling": 1.88,
@@ -1108,7 +1240,7 @@
       ]
     },
     {
-      "name": "Nickel",
+      "id": "Nickel",
       "appearance": "lustrous, metallic, and silver with a gold tinge",
       "atomic_mass": 58.69344,
       "boil": 3003,
@@ -1128,13 +1260,18 @@
       "symbol": "Ni",
       "xpos": 10,
       "ypos": 4,
-      "shells": [2, 8, 16, 2],
+      "shells": [
+        2,
+        8,
+        16,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d8 4s2",
       "electron_affinity": 111.65,
       "electronegativity_pauling": 1.91,
       "ionization_energies": [
         737.1,
-        1753.0,
+        1753,
         3395,
         5300,
         7339,
@@ -1164,7 +1301,7 @@
       ]
     },
     {
-      "name": "Copper",
+      "id": "Copper",
       "appearance": "red-orange metallic luster",
       "atomic_mass": 63.5463,
       "boil": 2835,
@@ -1184,7 +1321,12 @@
       "symbol": "Cu",
       "xpos": 11,
       "ypos": 4,
-      "shells": [2, 8, 18, 1],
+      "shells": [
+        2,
+        8,
+        18,
+        1
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s1",
       "electron_affinity": 119.235,
       "electronegativity_pauling": 1.9,
@@ -1221,7 +1363,7 @@
       ]
     },
     {
-      "name": "Zinc",
+      "id": "Zinc",
       "appearance": "silver-gray",
       "atomic_mass": 65.382,
       "boil": 1180,
@@ -1241,7 +1383,12 @@
       "symbol": "Zn",
       "xpos": 12,
       "ypos": 4,
-      "shells": [2, 8, 18, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d1 4s2",
       "electron_affinity": -58,
       "electronegativity_pauling": 1.65,
@@ -1270,7 +1417,7 @@
       ]
     },
     {
-      "name": "Gallium",
+      "id": "Gallium",
       "appearance": "silver-white",
       "atomic_mass": 69.7231,
       "boil": 2673,
@@ -1286,18 +1433,28 @@
       "phase": "Solid",
       "source": "https://en.wikipedia.org/wiki/Gallium",
       "spectral_img": null,
-      "summary": "Gallium is a chemical element with symbol Ga and atomic number 31. Elemental gallium does not occur in free form in nature, but as the gallium(III) compounds that are in trace amounts in zinc ores and in bauxite. Gallium is a soft, silvery metal, and elemental gallium is a brittle solid at low temperatures, and melts at 29.76 \u00b0C (85.57 \u00b0F) (slightly above room temperature).",
+      "summary": "Gallium is a chemical element with symbol Ga and atomic number 31. Elemental gallium does not occur in free form in nature, but as the gallium(III) compounds that are in trace amounts in zinc ores and in bauxite. Gallium is a soft, silvery metal, and elemental gallium is a brittle solid at low temperatures, and melts at 29.76 °C (85.57 °F) (slightly above room temperature).",
       "symbol": "Ga",
       "xpos": 13,
       "ypos": 4,
-      "shells": [2, 8, 18, 3],
+      "shells": [
+        2,
+        8,
+        18,
+        3
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p1",
       "electron_affinity": 41,
       "electronegativity_pauling": 1.81,
-      "ionization_energies": [578.8, 1979.3, 2963, 6180]
+      "ionization_energies": [
+        578.8,
+        1979.3,
+        2963,
+        6180
+      ]
     },
     {
-      "name": "Germanium",
+      "id": "Germanium",
       "appearance": "grayish-white",
       "atomic_mass": 72.6308,
       "boil": 3106,
@@ -1317,14 +1474,25 @@
       "symbol": "Ge",
       "xpos": 14,
       "ypos": 4,
-      "shells": [2, 8, 18, 4],
+      "shells": [
+        2,
+        8,
+        18,
+        4
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p2",
       "electron_affinity": 118.9352,
       "electronegativity_pauling": 2.01,
-      "ionization_energies": [762, 1537.5, 3302.1, 4411, 9020]
+      "ionization_energies": [
+        762,
+        1537.5,
+        3302.1,
+        4411,
+        9020
+      ]
     },
     {
-      "name": "Arsenic",
+      "id": "Arsenic",
       "appearance": "metallic grey",
       "atomic_mass": 74.9215956,
       "boil": null,
@@ -1344,21 +1512,33 @@
       "symbol": "As",
       "xpos": 15,
       "ypos": 4,
-      "shells": [2, 8, 18, 5],
+      "shells": [
+        2,
+        8,
+        18,
+        5
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p3",
       "electron_affinity": 77.65,
       "electronegativity_pauling": 2.18,
-      "ionization_energies": [947.0, 1798, 2735, 4837, 6043, 12310]
+      "ionization_energies": [
+        947,
+        1798,
+        2735,
+        4837,
+        6043,
+        12310
+      ]
     },
     {
-      "name": "Selenium",
+      "id": "Selenium",
       "appearance": "black, red, and gray (not pictured) allotropes",
       "atomic_mass": 78.9718,
       "boil": 958,
       "category": "polyatomic nonmetal",
       "color": null,
       "density": 4.81,
-      "discovered_by": "J\u00f6ns Jakob Berzelius",
+      "discovered_by": "Jöns Jakob Berzelius",
       "melt": 494,
       "molar_heat": 25.363,
       "named_by": null,
@@ -1371,21 +1551,34 @@
       "symbol": "Se",
       "xpos": 16,
       "ypos": 4,
-      "shells": [2, 8, 18, 6],
+      "shells": [
+        2,
+        8,
+        18,
+        6
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p4",
       "electron_affinity": 194.9587,
       "electronegativity_pauling": 2.55,
-      "ionization_energies": [941.0, 2045, 2973.7, 4144, 6590, 7880, 14990]
+      "ionization_energies": [
+        941,
+        2045,
+        2973.7,
+        4144,
+        6590,
+        7880,
+        14990
+      ]
     },
     {
-      "name": "Bromine",
+      "id": "Bromine",
       "appearance": null,
       "atomic_mass": 79.904,
-      "boil": 332.0,
+      "boil": 332,
       "category": "diatomic nonmetal",
       "color": null,
       "density": 3.1028,
-      "discovered_by": "Antoine J\u00e9r\u00f4me Balard",
+      "discovered_by": "Antoine Jérôme Balard",
       "melt": 265.8,
       "molar_heat": null,
       "named_by": null,
@@ -1394,18 +1587,32 @@
       "phase": "Liquid",
       "source": "https://en.wikipedia.org/wiki/Bromine",
       "spectral_img": null,
-      "summary": "Bromine (from Ancient Greek:\u03b2\u03c1\u1ff6\u03bc\u03bf\u03c2, br\u00f3mos, meaning \"stench\") is a chemical element with symbol Br, and atomic number 35. It is a halogen. The element was isolated independently by two chemists, Carl Jacob L\u00f6wig and Antoine Jerome Balard, in 1825\u20131826.",
+      "summary": "Bromine (from Ancient Greek:βρῶμος, brómos, meaning \"stench\") is a chemical element with symbol Br, and atomic number 35. It is a halogen. The element was isolated independently by two chemists, Carl Jacob Löwig and Antoine Jerome Balard, in 1825–1826.",
       "symbol": "Br",
       "xpos": 17,
       "ypos": 4,
-      "shells": [2, 8, 18, 7],
+      "shells": [
+        2,
+        8,
+        18,
+        7
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p5",
       "electron_affinity": 324.537,
       "electronegativity_pauling": 2.96,
-      "ionization_energies": [1139.9, 2103, 3470, 4560, 5760, 8550, 9940, 18600]
+      "ionization_energies": [
+        1139.9,
+        2103,
+        3470,
+        4560,
+        5760,
+        8550,
+        9940,
+        18600
+      ]
     },
     {
-      "name": "Krypton",
+      "id": "Krypton",
       "appearance": "colorless gas, exhibiting a whitish glow in a high electric field",
       "atomic_mass": 83.7982,
       "boil": 119.93,
@@ -1421,14 +1628,19 @@
       "phase": "Gas",
       "source": "https://en.wikipedia.org/wiki/Krypton",
       "spectral_img": "https://en.wikipedia.org/wiki/File:Krypton_Spectrum.jpg",
-      "summary": "Krypton (from Greek:\u03ba\u03c1\u03c5\u03c0\u03c4\u03cc\u03c2 kryptos \"the hidden one\") is a chemical element with symbol Kr and atomic number 36. It is a member of group 18 (noble gases) elements. A colorless, odorless, tasteless noble gas, krypton occurs in trace amounts in the atmosphere, is isolated by fractionally distilling liquefied air, and is often used with other rare gases in fluorescent lamps.",
+      "summary": "Krypton (from Greek:κρυπτός kryptos \"the hidden one\") is a chemical element with symbol Kr and atomic number 36. It is a member of group 18 (noble gases) elements. A colorless, odorless, tasteless noble gas, krypton occurs in trace amounts in the atmosphere, is isolated by fractionally distilling liquefied air, and is often used with other rare gases in fluorescent lamps.",
       "symbol": "Kr",
       "xpos": 18,
       "ypos": 4,
-      "shells": [2, 8, 18, 8],
+      "shells": [
+        2,
+        8,
+        18,
+        8
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6",
       "electron_affinity": -96,
-      "electronegativity_pauling": 3.0,
+      "electronegativity_pauling": 3,
       "ionization_energies": [
         1350.8,
         2350.4,
@@ -1463,7 +1675,7 @@
       ]
     },
     {
-      "name": "Rubidium",
+      "id": "Rubidium",
       "appearance": "grey white",
       "atomic_mass": 85.46783,
       "boil": 961,
@@ -1483,12 +1695,18 @@
       "symbol": "Rb",
       "xpos": 1,
       "ypos": 5,
-      "shells": [2, 8, 18, 8, 1],
+      "shells": [
+        2,
+        8,
+        18,
+        8,
+        1
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 5s1",
       "electron_affinity": 46.884,
       "electronegativity_pauling": 0.82,
       "ionization_energies": [
-        403.0,
+        403,
         2633,
         3860,
         5080,
@@ -1501,7 +1719,7 @@
       ]
     },
     {
-      "name": "Strontium",
+      "id": "Strontium",
       "appearance": null,
       "atomic_mass": 87.621,
       "boil": 1650,
@@ -1521,7 +1739,13 @@
       "symbol": "Sr",
       "xpos": 2,
       "ypos": 5,
-      "shells": [2, 8, 18, 8, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        8,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 5s2",
       "electron_affinity": 5.023,
       "electronegativity_pauling": 0.95,
@@ -1540,7 +1764,7 @@
       ]
     },
     {
-      "name": "Yttrium",
+      "id": "Yttrium",
       "appearance": "silvery white",
       "atomic_mass": 88.905842,
       "boil": 3203,
@@ -1560,7 +1784,13 @@
       "symbol": "Y",
       "xpos": 3,
       "ypos": 5,
-      "shells": [2, 8, 18, 9, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        9,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d1 5s2",
       "electron_affinity": 29.6,
       "electronegativity_pauling": 1.22,
@@ -1580,7 +1810,7 @@
       ]
     },
     {
-      "name": "Zirconium",
+      "id": "Zirconium",
       "appearance": "silvery white",
       "atomic_mass": 91.2242,
       "boil": 4650,
@@ -1596,18 +1826,31 @@
       "phase": "Solid",
       "source": "https://en.wikipedia.org/wiki/Zirconium",
       "spectral_img": null,
-      "summary": "Zirconium is a chemical element with symbol Zr and atomic number 40. The name of zirconium is taken from the name of the mineral zircon, the most important source of zirconium. The word zircon comes from the Persian word zargun \u0632\u0631\u06af\u0648\u0646, meaning \"gold-colored\".",
+      "summary": "Zirconium is a chemical element with symbol Zr and atomic number 40. The name of zirconium is taken from the name of the mineral zircon, the most important source of zirconium. The word zircon comes from the Persian word zargun زرگون, meaning \"gold-colored\".",
       "symbol": "Zr",
       "xpos": 4,
       "ypos": 5,
-      "shells": [2, 8, 18, 10, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        10,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d2 5s2",
       "electron_affinity": 41.806,
       "electronegativity_pauling": 1.33,
-      "ionization_energies": [640.1, 1270, 2218, 3313, 7752, 9500]
+      "ionization_energies": [
+        640.1,
+        1270,
+        2218,
+        3313,
+        7752,
+        9500
+      ]
     },
     {
-      "name": "Niobium",
+      "id": "Niobium",
       "appearance": "gray metallic, bluish when oxidized",
       "atomic_mass": 92.906372,
       "boil": 5017,
@@ -1627,14 +1870,28 @@
       "symbol": "Nb",
       "xpos": 5,
       "ypos": 5,
-      "shells": [2, 8, 18, 12, 1],
+      "shells": [
+        2,
+        8,
+        18,
+        12,
+        1
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d4 5s1",
       "electron_affinity": 88.516,
       "electronegativity_pauling": 1.6,
-      "ionization_energies": [652.1, 1380, 2416, 3700, 4877, 9847, 12100]
+      "ionization_energies": [
+        652.1,
+        1380,
+        2416,
+        3700,
+        4877,
+        9847,
+        12100
+      ]
     },
     {
-      "name": "Molybdenum",
+      "id": "Molybdenum",
       "appearance": "gray metallic",
       "atomic_mass": 95.951,
       "boil": 4912,
@@ -1650,11 +1907,17 @@
       "phase": "Solid",
       "source": "https://en.wikipedia.org/wiki/Molybdenum",
       "spectral_img": null,
-      "summary": "Molybdenum is a chemical element with symbol Mo and atomic number 42. The name is from Neo-Latin molybdaenum, from Ancient Greek \u039c\u03cc\u03bb\u03c5\u03b2\u03b4\u03bf\u03c2 molybdos, meaning lead, since its ores were confused with lead ores. Molybdenum minerals have been known throughout history, but the element was discovered (in the sense of differentiating it as a new entity from the mineral salts of other metals) in 1778 by Carl Wilhelm Scheele.",
+      "summary": "Molybdenum is a chemical element with symbol Mo and atomic number 42. The name is from Neo-Latin molybdaenum, from Ancient Greek Μόλυβδος molybdos, meaning lead, since its ores were confused with lead ores. Molybdenum minerals have been known throughout history, but the element was discovered (in the sense of differentiating it as a new entity from the mineral salts of other metals) in 1778 by Carl Wilhelm Scheele.",
       "symbol": "Mo",
       "xpos": 6,
       "ypos": 5,
-      "shells": [2, 8, 18, 13, 1],
+      "shells": [
+        2,
+        8,
+        18,
+        13,
+        1
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d5 5s1",
       "electron_affinity": 72.1,
       "electronegativity_pauling": 2.16,
@@ -1692,14 +1955,14 @@
       ]
     },
     {
-      "name": "Technetium",
+      "id": "Technetium",
       "appearance": "shiny gray metal",
       "atomic_mass": 98,
       "boil": 4538,
       "category": "transition metal",
       "color": null,
       "density": 11,
-      "discovered_by": "Emilio Segr\u00e8",
+      "discovered_by": "Emilio Segrè",
       "melt": 2430,
       "molar_heat": 24.27,
       "named_by": null,
@@ -1708,18 +1971,28 @@
       "phase": "Solid",
       "source": "https://en.wikipedia.org/wiki/Technetium",
       "spectral_img": null,
-      "summary": "Technetium (/t\u025bk\u02c8ni\u02d0\u0283i\u0259m/) is a chemical element with symbol Tc and atomic number 43. It is the element with the lowest atomic number in the periodic table that has no stable isotopes:every form of it is radioactive. Nearly all technetium is produced synthetically, and only minute amounts are found in nature.",
+      "summary": "Technetium (/tɛkˈniːʃiəm/) is a chemical element with symbol Tc and atomic number 43. It is the element with the lowest atomic number in the periodic table that has no stable isotopes:every form of it is radioactive. Nearly all technetium is produced synthetically, and only minute amounts are found in nature.",
       "symbol": "Tc",
       "xpos": 7,
       "ypos": 5,
-      "shells": [2, 8, 18, 13, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        13,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d5 5s2",
       "electron_affinity": 53,
       "electronegativity_pauling": 1.9,
-      "ionization_energies": [702, 1470, 2850]
+      "ionization_energies": [
+        702,
+        1470,
+        2850
+      ]
     },
     {
-      "name": "Ruthenium",
+      "id": "Ruthenium",
       "appearance": "silvery white metallic",
       "atomic_mass": 101.072,
       "boil": 4423,
@@ -1739,14 +2012,24 @@
       "symbol": "Ru",
       "xpos": 8,
       "ypos": 5,
-      "shells": [2, 8, 18, 15, 1],
+      "shells": [
+        2,
+        8,
+        18,
+        15,
+        1
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d7 5s1",
       "electron_affinity": 100.96,
       "electronegativity_pauling": 2.2,
-      "ionization_energies": [710.2, 1620, 2747]
+      "ionization_energies": [
+        710.2,
+        1620,
+        2747
+      ]
     },
     {
-      "name": "Rhodium",
+      "id": "Rhodium",
       "appearance": "silvery white metallic",
       "atomic_mass": 102.905502,
       "boil": 3968,
@@ -1766,14 +2049,24 @@
       "symbol": "Rh",
       "xpos": 9,
       "ypos": 5,
-      "shells": [2, 8, 18, 16, 1],
+      "shells": [
+        2,
+        8,
+        18,
+        16,
+        1
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d8 5s1",
       "electron_affinity": 110.27,
       "electronegativity_pauling": 2.28,
-      "ionization_energies": [719.7, 1740, 2997]
+      "ionization_energies": [
+        719.7,
+        1740,
+        2997
+      ]
     },
     {
-      "name": "Palladium",
+      "id": "Palladium",
       "appearance": "silvery white",
       "atomic_mass": 106.421,
       "boil": 3236,
@@ -1793,14 +2086,23 @@
       "symbol": "Pd",
       "xpos": 10,
       "ypos": 5,
-      "shells": [2, 8, 18, 18],
+      "shells": [
+        2,
+        8,
+        18,
+        18
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10",
       "electron_affinity": 54.24,
       "electronegativity_pauling": 2.2,
-      "ionization_energies": [804.4, 1870, 3177]
+      "ionization_energies": [
+        804.4,
+        1870,
+        3177
+      ]
     },
     {
-      "name": "Silver",
+      "id": "Silver",
       "appearance": "lustrous white metal",
       "atomic_mass": 107.86822,
       "boil": 2435,
@@ -1816,18 +2118,28 @@
       "phase": "Solid",
       "source": "https://en.wikipedia.org/wiki/Silver",
       "spectral_img": null,
-      "summary": "Silver is a chemical element with symbol Ag (Greek:\u03ac\u03c1\u03b3\u03c5\u03c1\u03bf\u03c2 \u00e1rguros, Latin:argentum, both from the Indo-European root *h\u2082er\u01f5- for \"grey\" or \"shining\") and atomic number 47. A soft, white, lustrous transition metal, it possesses the highest electrical conductivity, thermal conductivity and reflectivity of any metal. The metal occurs naturally in its pure, free form (native silver), as an alloy with gold and other metals, and in minerals such as argentite and chlorargyrite.",
+      "summary": "Silver is a chemical element with symbol Ag (Greek:άργυρος árguros, Latin:argentum, both from the Indo-European root *h₂erǵ- for \"grey\" or \"shining\") and atomic number 47. A soft, white, lustrous transition metal, it possesses the highest electrical conductivity, thermal conductivity and reflectivity of any metal. The metal occurs naturally in its pure, free form (native silver), as an alloy with gold and other metals, and in minerals such as argentite and chlorargyrite.",
       "symbol": "Ag",
       "xpos": 11,
       "ypos": 5,
-      "shells": [2, 8, 18, 18, 1],
+      "shells": [
+        2,
+        8,
+        18,
+        18,
+        1
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s1",
       "electron_affinity": 125.862,
       "electronegativity_pauling": 1.93,
-      "ionization_energies": [731.0, 2070, 3361]
+      "ionization_energies": [
+        731,
+        2070,
+        3361
+      ]
     },
     {
-      "name": "Cadmium",
+      "id": "Cadmium",
       "appearance": "silvery bluish-gray metallic",
       "atomic_mass": 112.4144,
       "boil": 1040,
@@ -1847,14 +2159,24 @@
       "symbol": "Cd",
       "xpos": 12,
       "ypos": 5,
-      "shells": [2, 8, 18, 18, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        18,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2",
       "electron_affinity": -68,
       "electronegativity_pauling": 1.69,
-      "ionization_energies": [867.8, 1631.4, 3616]
+      "ionization_energies": [
+        867.8,
+        1631.4,
+        3616
+      ]
     },
     {
-      "name": "Indium",
+      "id": "Indium",
       "appearance": "silvery lustrous gray",
       "atomic_mass": 114.8181,
       "boil": 2345,
@@ -1874,15 +2196,26 @@
       "symbol": "In",
       "xpos": 13,
       "ypos": 5,
-      "shells": [2, 8, 18, 18, 3],
+      "shells": [
+        2,
+        8,
+        18,
+        18,
+        3
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p1",
       "electron_affinity": 37.043,
       "electronegativity_pauling": 1.78,
-      "ionization_energies": [558.3, 1820.7, 2704, 5210]
+      "ionization_energies": [
+        558.3,
+        1820.7,
+        2704,
+        5210
+      ]
     },
     {
-      "name": "Tin",
-      "appearance": "silvery-white (beta, \u03b2) or gray (alpha, \u03b1)",
+      "id": "Tin",
+      "appearance": "silvery-white (beta, β) or gray (alpha, α)",
       "atomic_mass": 118.7107,
       "boil": 2875,
       "category": "post-transition metal",
@@ -1901,14 +2234,26 @@
       "symbol": "Sn",
       "xpos": 14,
       "ypos": 5,
-      "shells": [2, 8, 18, 18, 4],
+      "shells": [
+        2,
+        8,
+        18,
+        18,
+        4
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p2",
       "electron_affinity": 107.2984,
       "electronegativity_pauling": 1.96,
-      "ionization_energies": [708.6, 1411.8, 2943.0, 3930.3, 7456]
+      "ionization_energies": [
+        708.6,
+        1411.8,
+        2943,
+        3930.3,
+        7456
+      ]
     },
     {
-      "name": "Antimony",
+      "id": "Antimony",
       "appearance": "silvery lustrous gray",
       "atomic_mass": 121.7601,
       "boil": 1908,
@@ -1928,21 +2273,34 @@
       "symbol": "Sb",
       "xpos": 15,
       "ypos": 5,
-      "shells": [2, 8, 18, 18, 5],
+      "shells": [
+        2,
+        8,
+        18,
+        18,
+        5
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p3",
       "electron_affinity": 101.059,
       "electronegativity_pauling": 2.05,
-      "ionization_energies": [834, 1594.9, 2440, 4260, 5400, 10400]
+      "ionization_energies": [
+        834,
+        1594.9,
+        2440,
+        4260,
+        5400,
+        10400
+      ]
     },
     {
-      "name": "Tellurium",
+      "id": "Tellurium",
       "appearance": null,
       "atomic_mass": 127.603,
       "boil": 1261,
       "category": "metalloid",
       "color": null,
       "density": 6.24,
-      "discovered_by": "Franz-Joseph M\u00fcller von Reichenstein",
+      "discovered_by": "Franz-Joseph Müller von Reichenstein",
       "melt": 722.66,
       "molar_heat": 25.73,
       "named_by": null,
@@ -1955,14 +2313,28 @@
       "symbol": "Te",
       "xpos": 16,
       "ypos": 5,
-      "shells": [2, 8, 18, 18, 6],
+      "shells": [
+        2,
+        8,
+        18,
+        18,
+        6
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p4",
       "electron_affinity": 190.161,
       "electronegativity_pauling": 2.1,
-      "ionization_energies": [869.3, 1790, 2698, 3610, 5668, 6820, 13200]
+      "ionization_energies": [
+        869.3,
+        1790,
+        2698,
+        3610,
+        5668,
+        6820,
+        13200
+      ]
     },
     {
-      "name": "Iodine",
+      "id": "Iodine",
       "appearance": "lustrous metallic gray, violet as a gas",
       "atomic_mass": 126.904473,
       "boil": 457.4,
@@ -1978,18 +2350,28 @@
       "phase": "Solid",
       "source": "https://en.wikipedia.org/wiki/Iodine",
       "spectral_img": null,
-      "summary": "Iodine is a chemical element with symbol I and atomic number 53. The name is from Greek \u1f30\u03bf\u03b5\u03b9\u03b4\u03ae\u03c2 ioeid\u0113s, meaning violet or purple, due to the color of iodine vapor. Iodine and its compounds are primarily used in nutrition, and industrially in the production of acetic acid and certain polymers.",
+      "summary": "Iodine is a chemical element with symbol I and atomic number 53. The name is from Greek ἰοειδής ioeidēs, meaning violet or purple, due to the color of iodine vapor. Iodine and its compounds are primarily used in nutrition, and industrially in the production of acetic acid and certain polymers.",
       "symbol": "I",
       "xpos": 17,
       "ypos": 5,
-      "shells": [2, 8, 18, 18, 7],
+      "shells": [
+        2,
+        8,
+        18,
+        18,
+        7
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p5",
       "electron_affinity": 295.1531,
       "electronegativity_pauling": 2.66,
-      "ionization_energies": [1008.4, 1845.9, 3180]
+      "ionization_energies": [
+        1008.4,
+        1845.9,
+        3180
+      ]
     },
     {
-      "name": "Xenon",
+      "id": "Xenon",
       "appearance": "colorless gas, exhibiting a blue glow when placed in a high voltage electric field",
       "atomic_mass": 131.2936,
       "boil": 165.051,
@@ -2009,14 +2391,24 @@
       "symbol": "Xe",
       "xpos": 18,
       "ypos": 5,
-      "shells": [2, 8, 18, 18, 8],
+      "shells": [
+        2,
+        8,
+        18,
+        18,
+        8
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6",
       "electron_affinity": -77,
       "electronegativity_pauling": 2.6,
-      "ionization_energies": [1170.4, 2046.4, 3099.4]
+      "ionization_energies": [
+        1170.4,
+        2046.4,
+        3099.4
+      ]
     },
     {
-      "name": "Cesium",
+      "id": "Cesium",
       "appearance": "silvery gold",
       "atomic_mass": 132.905451966,
       "boil": 944,
@@ -2032,18 +2424,29 @@
       "phase": "Solid",
       "source": "https://en.wikipedia.org/wiki/Cesium",
       "spectral_img": null,
-      "summary": "Caesium or cesium is a chemical element with symbol Cs and atomic number 55. It is a soft, silvery-gold alkali metal with a melting point of 28 \u00b0C (82 \u00b0F), which makes it one of only five elemental metals that are liquid at or near room temperature. Caesium is an alkali metal and has physical and chemical properties similar to those of rubidium and potassium.",
+      "summary": "Caesium or cesium is a chemical element with symbol Cs and atomic number 55. It is a soft, silvery-gold alkali metal with a melting point of 28 °C (82 °F), which makes it one of only five elemental metals that are liquid at or near room temperature. Caesium is an alkali metal and has physical and chemical properties similar to those of rubidium and potassium.",
       "symbol": "Cs",
       "xpos": 1,
       "ypos": 6,
-      "shells": [2, 8, 18, 18, 8, 1],
+      "shells": [
+        2,
+        8,
+        18,
+        18,
+        8,
+        1
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 6s1",
       "electron_affinity": 45.505,
       "electronegativity_pauling": 0.79,
-      "ionization_energies": [375.7, 2234.3, 3400]
+      "ionization_energies": [
+        375.7,
+        2234.3,
+        3400
+      ]
     },
     {
-      "name": "Barium",
+      "id": "Barium",
       "appearance": null,
       "atomic_mass": 137.3277,
       "boil": 2118,
@@ -2063,14 +2466,25 @@
       "symbol": "Ba",
       "xpos": 2,
       "ypos": 6,
-      "shells": [2, 8, 18, 18, 8, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        18,
+        8,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 6s2",
       "electron_affinity": 13.954,
       "electronegativity_pauling": 0.89,
-      "ionization_energies": [502.9, 965.2, 3600]
+      "ionization_energies": [
+        502.9,
+        965.2,
+        3600
+      ]
     },
     {
-      "name": "Lanthanum",
+      "id": "Lanthanum",
       "appearance": "silvery white",
       "atomic_mass": 138.905477,
       "boil": 3737,
@@ -2090,14 +2504,27 @@
       "symbol": "La",
       "xpos": 3,
       "ypos": 9,
-      "shells": [2, 8, 18, 18, 9, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        18,
+        9,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 5d1 6s2",
       "electron_affinity": 53,
       "electronegativity_pauling": 1.1,
-      "ionization_energies": [538.1, 1067, 1850.3, 4819, 5940]
+      "ionization_energies": [
+        538.1,
+        1067,
+        1850.3,
+        4819,
+        5940
+      ]
     },
     {
-      "name": "Cerium",
+      "id": "Cerium",
       "appearance": "silvery white",
       "atomic_mass": 140.1161,
       "boil": 3716,
@@ -2117,14 +2544,28 @@
       "symbol": "Ce",
       "xpos": 4,
       "ypos": 9,
-      "shells": [2, 8, 18, 19, 9, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        19,
+        9,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f1 5s2 5p6 5d1 6s2",
       "electron_affinity": 55,
       "electronegativity_pauling": 1.12,
-      "ionization_energies": [534.4, 1050, 1949, 3547, 6325, 7490]
+      "ionization_energies": [
+        534.4,
+        1050,
+        1949,
+        3547,
+        6325,
+        7490
+      ]
     },
     {
-      "name": "Praseodymium",
+      "id": "Praseodymium",
       "appearance": "grayish white",
       "atomic_mass": 140.907662,
       "boil": 3403,
@@ -2144,14 +2585,27 @@
       "symbol": "Pr",
       "xpos": 5,
       "ypos": 9,
-      "shells": [2, 8, 18, 21, 8, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        21,
+        8,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f3 5s2 5p6 6s2",
       "electron_affinity": 93,
       "electronegativity_pauling": 1.13,
-      "ionization_energies": [527, 1020, 2086, 3761, 5551]
+      "ionization_energies": [
+        527,
+        1020,
+        2086,
+        3761,
+        5551
+      ]
     },
     {
-      "name": "Neodymium",
+      "id": "Neodymium",
       "appearance": "silvery white",
       "atomic_mass": 144.2423,
       "boil": 3347,
@@ -2171,14 +2625,26 @@
       "symbol": "Nd",
       "xpos": 6,
       "ypos": 9,
-      "shells": [2, 8, 18, 22, 8, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        22,
+        8,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f4 5s2 5p6 6s2",
       "electron_affinity": 184.87,
       "electronegativity_pauling": 1.14,
-      "ionization_energies": [533.1, 1040, 2130, 3900]
+      "ionization_energies": [
+        533.1,
+        1040,
+        2130,
+        3900
+      ]
     },
     {
-      "name": "Promethium",
+      "id": "Promethium",
       "appearance": "metallic",
       "atomic_mass": 145,
       "boil": 3273,
@@ -2198,14 +2664,26 @@
       "symbol": "Pm",
       "xpos": 7,
       "ypos": 9,
-      "shells": [2, 8, 18, 23, 8, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        23,
+        8,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f5 5s2 5p6 6s2",
       "electron_affinity": 12.45,
       "electronegativity_pauling": 1.13,
-      "ionization_energies": [540, 1050, 2150, 3970]
+      "ionization_energies": [
+        540,
+        1050,
+        2150,
+        3970
+      ]
     },
     {
-      "name": "Samarium",
+      "id": "Samarium",
       "appearance": "silvery white",
       "atomic_mass": 150.362,
       "boil": 2173,
@@ -2225,21 +2703,33 @@
       "symbol": "Sm",
       "xpos": 8,
       "ypos": 9,
-      "shells": [2, 8, 18, 24, 8, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        24,
+        8,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f6 5s2 5p6 6s2",
       "electron_affinity": 15.63,
       "electronegativity_pauling": 1.17,
-      "ionization_energies": [544.5, 1070, 2260, 3990]
+      "ionization_energies": [
+        544.5,
+        1070,
+        2260,
+        3990
+      ]
     },
     {
-      "name": "Europium",
+      "id": "Europium",
       "appearance": null,
       "atomic_mass": 151.9641,
       "boil": 1802,
       "category": "lanthanide",
       "color": null,
       "density": 5.264,
-      "discovered_by": "Eug\u00e8ne-Anatole Demar\u00e7ay",
+      "discovered_by": "Eugène-Anatole Demarçay",
       "melt": 1099,
       "molar_heat": 27.66,
       "named_by": null,
@@ -2252,14 +2742,26 @@
       "symbol": "Eu",
       "xpos": 9,
       "ypos": 9,
-      "shells": [2, 8, 18, 25, 8, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        25,
+        8,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f7 5s2 5p6 6s2",
       "electron_affinity": 11.2,
       "electronegativity_pauling": 1.2,
-      "ionization_energies": [547.1, 1085, 2404, 4120]
+      "ionization_energies": [
+        547.1,
+        1085,
+        2404,
+        4120
+      ]
     },
     {
-      "name": "Gadolinium",
+      "id": "Gadolinium",
       "appearance": "silvery white",
       "atomic_mass": 157.253,
       "boil": 3273,
@@ -2279,14 +2781,26 @@
       "symbol": "Gd",
       "xpos": 10,
       "ypos": 9,
-      "shells": [2, 8, 18, 25, 9, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        25,
+        9,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f7 5s2 5p6 5d1 6s2",
       "electron_affinity": 13.22,
       "electronegativity_pauling": 1.2,
-      "ionization_energies": [593.4, 1170, 1990, 4250]
+      "ionization_energies": [
+        593.4,
+        1170,
+        1990,
+        4250
+      ]
     },
     {
-      "name": "Terbium",
+      "id": "Terbium",
       "appearance": "silvery white",
       "atomic_mass": 158.925352,
       "boil": 3396,
@@ -2306,14 +2820,26 @@
       "symbol": "Tb",
       "xpos": 11,
       "ypos": 9,
-      "shells": [2, 8, 18, 27, 8, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        27,
+        8,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f9 5s2 5p6 6s2",
       "electron_affinity": 112.4,
       "electronegativity_pauling": 1.1,
-      "ionization_energies": [565.8, 1110, 2114, 3839]
+      "ionization_energies": [
+        565.8,
+        1110,
+        2114,
+        3839
+      ]
     },
     {
-      "name": "Dysprosium",
+      "id": "Dysprosium",
       "appearance": "silvery white",
       "atomic_mass": 162.5001,
       "boil": 2840,
@@ -2333,14 +2859,26 @@
       "symbol": "Dy",
       "xpos": 12,
       "ypos": 9,
-      "shells": [2, 8, 18, 28, 8, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        28,
+        8,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f10 5s2 5p6 6s2",
       "electron_affinity": 33.96,
       "electronegativity_pauling": 1.22,
-      "ionization_energies": [573.0, 1130, 2200, 3990]
+      "ionization_energies": [
+        573,
+        1130,
+        2200,
+        3990
+      ]
     },
     {
-      "name": "Holmium",
+      "id": "Holmium",
       "appearance": "silvery white",
       "atomic_mass": 164.930332,
       "boil": 2873,
@@ -2360,14 +2898,26 @@
       "symbol": "Ho",
       "xpos": 13,
       "ypos": 9,
-      "shells": [2, 8, 18, 29, 8, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        29,
+        8,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f11 5s2 5p6 6s2",
       "electron_affinity": 32.61,
       "electronegativity_pauling": 1.23,
-      "ionization_energies": [581.0, 1140, 2204, 4100]
+      "ionization_energies": [
+        581,
+        1140,
+        2204,
+        4100
+      ]
     },
     {
-      "name": "Erbium",
+      "id": "Erbium",
       "appearance": "silvery white",
       "atomic_mass": 167.2593,
       "boil": 3141,
@@ -2387,14 +2937,26 @@
       "symbol": "Er",
       "xpos": 14,
       "ypos": 9,
-      "shells": [2, 8, 18, 30, 8, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        30,
+        8,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f12 5s2 5p6 6s2",
       "electron_affinity": 30.1,
       "electronegativity_pauling": 1.24,
-      "ionization_energies": [589.3, 1150, 2194, 4120]
+      "ionization_energies": [
+        589.3,
+        1150,
+        2194,
+        4120
+      ]
     },
     {
-      "name": "Thulium",
+      "id": "Thulium",
       "appearance": "silvery gray",
       "atomic_mass": 168.934222,
       "boil": 2223,
@@ -2414,14 +2976,26 @@
       "symbol": "Tm",
       "xpos": 15,
       "ypos": 9,
-      "shells": [2, 8, 18, 31, 8, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        31,
+        8,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f13 5s2 5p6 6s2",
       "electron_affinity": 99,
       "electronegativity_pauling": 1.25,
-      "ionization_energies": [596.7, 1160, 2285, 4120]
+      "ionization_energies": [
+        596.7,
+        1160,
+        2285,
+        4120
+      ]
     },
     {
-      "name": "Ytterbium",
+      "id": "Ytterbium",
       "appearance": null,
       "atomic_mass": 173.0451,
       "boil": 1469,
@@ -2441,14 +3015,26 @@
       "symbol": "Yb",
       "xpos": 16,
       "ypos": 9,
-      "shells": [2, 8, 18, 32, 8, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        8,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 6s2",
       "electron_affinity": -1.93,
       "electronegativity_pauling": 1.1,
-      "ionization_energies": [603.4, 1174.8, 2417, 4203]
+      "ionization_energies": [
+        603.4,
+        1174.8,
+        2417,
+        4203
+      ]
     },
     {
-      "name": "Lutetium",
+      "id": "Lutetium",
       "appearance": "silvery white",
       "atomic_mass": 174.96681,
       "boil": 3675,
@@ -2468,14 +3054,27 @@
       "symbol": "Lu",
       "xpos": 17,
       "ypos": 9,
-      "shells": [2, 8, 18, 32, 9, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        9,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d1 6s2",
       "electron_affinity": 33.4,
       "electronegativity_pauling": 1.27,
-      "ionization_energies": [523.5, 1340, 2022.3, 4370, 6445]
+      "ionization_energies": [
+        523.5,
+        1340,
+        2022.3,
+        4370,
+        6445
+      ]
     },
     {
-      "name": "Hafnium",
+      "id": "Hafnium",
       "appearance": "steel gray",
       "atomic_mass": 178.492,
       "boil": 4876,
@@ -2495,14 +3094,26 @@
       "symbol": "Hf",
       "xpos": 4,
       "ypos": 6,
-      "shells": [2, 8, 18, 32, 10, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        10,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d2 6s2",
       "electron_affinity": 17.18,
       "electronegativity_pauling": 1.3,
-      "ionization_energies": [658.5, 1440, 2250, 3216]
+      "ionization_energies": [
+        658.5,
+        1440,
+        2250,
+        3216
+      ]
     },
     {
-      "name": "Tantalum",
+      "id": "Tantalum",
       "appearance": "gray blue",
       "atomic_mass": 180.947882,
       "boil": 5731,
@@ -2522,14 +3133,24 @@
       "symbol": "Ta",
       "xpos": 5,
       "ypos": 6,
-      "shells": [2, 8, 18, 32, 11, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        11,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d3 6s2",
       "electron_affinity": 31,
       "electronegativity_pauling": 1.5,
-      "ionization_energies": [761, 1500]
+      "ionization_energies": [
+        761,
+        1500
+      ]
     },
     {
-      "name": "Tungsten",
+      "id": "Tungsten",
       "appearance": "grayish white, lustrous",
       "atomic_mass": 183.841,
       "boil": 6203,
@@ -2549,14 +3170,24 @@
       "symbol": "W",
       "xpos": 6,
       "ypos": 6,
-      "shells": [2, 8, 18, 32, 12, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        12,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d4 6s2",
       "electron_affinity": 78.76,
       "electronegativity_pauling": 2.36,
-      "ionization_energies": [770, 1700]
+      "ionization_energies": [
+        770,
+        1700
+      ]
     },
     {
-      "name": "Rhenium",
+      "id": "Rhenium",
       "appearance": "silvery-grayish",
       "atomic_mass": 186.2071,
       "boil": 5869,
@@ -2576,14 +3207,26 @@
       "symbol": "Re",
       "xpos": 7,
       "ypos": 6,
-      "shells": [2, 8, 18, 32, 13, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        13,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d5 6s2",
       "electron_affinity": 5.8273,
       "electronegativity_pauling": 1.9,
-      "ionization_energies": [760, 1260, 2510, 3640]
+      "ionization_energies": [
+        760,
+        1260,
+        2510,
+        3640
+      ]
     },
     {
-      "name": "Osmium",
+      "id": "Osmium",
       "appearance": "silvery, blue cast",
       "atomic_mass": 190.233,
       "boil": 5285,
@@ -2599,18 +3242,28 @@
       "phase": "Solid",
       "source": "https://en.wikipedia.org/wiki/Osmium",
       "spectral_img": null,
-      "summary": "Osmium (from Greek osme (\u1f40\u03c3\u03bc\u03ae) meaning \"smell\") is a chemical element with symbol Os and atomic number 76. It is a hard, brittle, bluish-white transition metal in the platinum group that is found as a trace element in alloys, mostly in platinum ores. Osmium is the densest naturally occurring element, with a density of 22.59 g/cm3.",
+      "summary": "Osmium (from Greek osme (ὀσμή) meaning \"smell\") is a chemical element with symbol Os and atomic number 76. It is a hard, brittle, bluish-white transition metal in the platinum group that is found as a trace element in alloys, mostly in platinum ores. Osmium is the densest naturally occurring element, with a density of 22.59 g/cm3.",
       "symbol": "Os",
       "xpos": 8,
       "ypos": 6,
-      "shells": [2, 8, 18, 32, 14, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        14,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d6 6s2",
       "electron_affinity": 103.99,
       "electronegativity_pauling": 2.2,
-      "ionization_energies": [840, 1600]
+      "ionization_energies": [
+        840,
+        1600
+      ]
     },
     {
-      "name": "Iridium",
+      "id": "Iridium",
       "appearance": "silvery white",
       "atomic_mass": 192.2173,
       "boil": 4403,
@@ -2626,18 +3279,28 @@
       "phase": "Solid",
       "source": "https://en.wikipedia.org/wiki/Iridium",
       "spectral_img": null,
-      "summary": "Iridium is a chemical element with symbol Ir and atomic number 77. A very hard, brittle, silvery-white transition metal of the platinum group, iridium is generally credited with being the second densest element (after osmium) based on measured density, although calculations involving the space lattices of the elements show that iridium is denser. It is also the most corrosion-resistant metal, even at temperatures as high as 2000 \u00b0C. Although only certain molten salts and halogens are corrosive to solid iridium, finely divided iridium dust is much more reactive and can be flammable.",
+      "summary": "Iridium is a chemical element with symbol Ir and atomic number 77. A very hard, brittle, silvery-white transition metal of the platinum group, iridium is generally credited with being the second densest element (after osmium) based on measured density, although calculations involving the space lattices of the elements show that iridium is denser. It is also the most corrosion-resistant metal, even at temperatures as high as 2000 °C. Although only certain molten salts and halogens are corrosive to solid iridium, finely divided iridium dust is much more reactive and can be flammable.",
       "symbol": "Ir",
       "xpos": 9,
       "ypos": 6,
-      "shells": [2, 8, 18, 32, 15, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        15,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d7 6s2",
       "electron_affinity": 150.94,
       "electronegativity_pauling": 2.2,
-      "ionization_energies": [880, 1600]
+      "ionization_energies": [
+        880,
+        1600
+      ]
     },
     {
-      "name": "Platinum",
+      "id": "Platinum",
       "appearance": "silvery white",
       "atomic_mass": 195.0849,
       "boil": 4098,
@@ -2657,14 +3320,24 @@
       "symbol": "Pt",
       "xpos": 10,
       "ypos": 6,
-      "shells": [2, 8, 18, 32, 17, 1],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        17,
+        1
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d9 6s1",
       "electron_affinity": 205.041,
       "electronegativity_pauling": 2.28,
-      "ionization_energies": [870, 1791]
+      "ionization_energies": [
+        870,
+        1791
+      ]
     },
     {
-      "name": "Gold",
+      "id": "Gold",
       "appearance": "metallic yellow",
       "atomic_mass": 196.9665695,
       "boil": 3243,
@@ -2684,14 +3357,24 @@
       "symbol": "Au",
       "xpos": 11,
       "ypos": 6,
-      "shells": [2, 8, 18, 32, 18, 1],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        18,
+        1
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 6s1",
       "electron_affinity": 222.747,
       "electronegativity_pauling": 2.54,
-      "ionization_energies": [890.1, 1980]
+      "ionization_energies": [
+        890.1,
+        1980
+      ]
     },
     {
-      "name": "Mercury",
+      "id": "Mercury",
       "appearance": "silvery",
       "atomic_mass": 200.5923,
       "boil": 629.88,
@@ -2707,18 +3390,29 @@
       "phase": "Liquid",
       "source": "https://en.wikipedia.org/wiki/Mercury (Element)",
       "spectral_img": null,
-      "summary": "Mercury is a chemical element with symbol Hg and atomic number 80. It is commonly known as quicksilver and was formerly named hydrargyrum (/ha\u026a\u02c8dr\u0251\u02d0rd\u0292\u0259r\u0259m/). A heavy, silvery d-block element, mercury is the only metallic element that is liquid at standard conditions for temperature and pressure; the only other element that is liquid under these conditions is bromine, though metals such as caesium, gallium, and rubidium melt just above room temperature.",
+      "summary": "Mercury is a chemical element with symbol Hg and atomic number 80. It is commonly known as quicksilver and was formerly named hydrargyrum (/haɪˈdrɑːrdʒərəm/). A heavy, silvery d-block element, mercury is the only metallic element that is liquid at standard conditions for temperature and pressure; the only other element that is liquid under these conditions is bromine, though metals such as caesium, gallium, and rubidium melt just above room temperature.",
       "symbol": "Hg",
       "xpos": 12,
       "ypos": 6,
-      "shells": [2, 8, 18, 32, 18, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        18,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 6s2",
       "electron_affinity": -48,
-      "electronegativity_pauling": 2.0,
-      "ionization_energies": [1007.1, 1810, 3300]
+      "electronegativity_pauling": 2,
+      "ionization_energies": [
+        1007.1,
+        1810,
+        3300
+      ]
     },
     {
-      "name": "Thallium",
+      "id": "Thallium",
       "appearance": "silvery white",
       "atomic_mass": 204.38,
       "boil": 1746,
@@ -2738,14 +3432,25 @@
       "symbol": "Tl",
       "xpos": 13,
       "ypos": 6,
-      "shells": [2, 8, 18, 32, 18, 3],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        18,
+        3
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 6s2 6p1",
       "electron_affinity": 36.4,
       "electronegativity_pauling": 1.62,
-      "ionization_energies": [589.4, 1971, 2878]
+      "ionization_energies": [
+        589.4,
+        1971,
+        2878
+      ]
     },
     {
-      "name": "Lead",
+      "id": "Lead",
       "appearance": "metallic gray",
       "atomic_mass": 207.21,
       "boil": 2022,
@@ -2761,25 +3466,38 @@
       "phase": "Solid",
       "source": "https://en.wikipedia.org/wiki/Lead_(element)",
       "spectral_img": null,
-      "summary": "Lead (/l\u025bd/) is a chemical element in the carbon group with symbol Pb (from Latin:plumbum) and atomic number 82. Lead is a soft, malleable and heavy post-transition metal. Metallic lead has a bluish-white color after being freshly cut, but it soon tarnishes to a dull grayish color when exposed to air.",
+      "summary": "Lead (/lɛd/) is a chemical element in the carbon group with symbol Pb (from Latin:plumbum) and atomic number 82. Lead is a soft, malleable and heavy post-transition metal. Metallic lead has a bluish-white color after being freshly cut, but it soon tarnishes to a dull grayish color when exposed to air.",
       "symbol": "Pb",
       "xpos": 14,
       "ypos": 6,
-      "shells": [2, 8, 18, 32, 18, 4],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        18,
+        4
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 6s2 6p2",
       "electron_affinity": 34.4204,
       "electronegativity_pauling": 1.87,
-      "ionization_energies": [715.6, 1450.5, 3081.5, 4083, 6640]
+      "ionization_energies": [
+        715.6,
+        1450.5,
+        3081.5,
+        4083,
+        6640
+      ]
     },
     {
-      "name": "Bismuth",
+      "id": "Bismuth",
       "appearance": "lustrous silver",
       "atomic_mass": 208.980401,
       "boil": 1837,
       "category": "post-transition metal",
       "color": null,
       "density": 9.78,
-      "discovered_by": "Claude Fran\u00e7ois Geoffroy",
+      "discovered_by": "Claude François Geoffroy",
       "melt": 544.7,
       "molar_heat": 25.52,
       "named_by": null,
@@ -2792,14 +3510,28 @@
       "symbol": "Bi",
       "xpos": 15,
       "ypos": 6,
-      "shells": [2, 8, 18, 32, 18, 5],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        18,
+        5
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 6s2 6p3",
       "electron_affinity": 90.924,
       "electronegativity_pauling": 2.02,
-      "ionization_energies": [703, 1610, 2466, 4370, 5400, 8520]
+      "ionization_energies": [
+        703,
+        1610,
+        2466,
+        4370,
+        5400,
+        8520
+      ]
     },
     {
-      "name": "Polonium",
+      "id": "Polonium",
       "appearance": "silvery",
       "atomic_mass": 209,
       "boil": 1235,
@@ -2819,14 +3551,23 @@
       "symbol": "Po",
       "xpos": 16,
       "ypos": 6,
-      "shells": [2, 8, 18, 32, 18, 6],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        18,
+        6
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 6s2 6p4",
       "electron_affinity": 136,
-      "electronegativity_pauling": 2.0,
-      "ionization_energies": [812.1]
+      "electronegativity_pauling": 2,
+      "ionization_energies": [
+        812.1
+      ]
     },
     {
-      "name": "Astatine",
+      "id": "Astatine",
       "appearance": "unknown, probably metallic",
       "atomic_mass": 210,
       "boil": 610,
@@ -2846,14 +3587,23 @@
       "symbol": "At",
       "xpos": 17,
       "ypos": 6,
-      "shells": [2, 8, 18, 32, 18, 7],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        18,
+        7
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 6s2 6p5",
       "electron_affinity": 233,
       "electronegativity_pauling": 2.2,
-      "ionization_energies": [899.003]
+      "ionization_energies": [
+        899.003
+      ]
     },
     {
-      "name": "Radon",
+      "id": "Radon",
       "appearance": "colorless gas, occasionally glows green or red in discharge tubes",
       "atomic_mass": 222,
       "boil": 211.5,
@@ -2873,14 +3623,23 @@
       "symbol": "Rn",
       "xpos": 18,
       "ypos": 6,
-      "shells": [2, 8, 18, 32, 18, 8],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        18,
+        8
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 6s2 6p6",
       "electron_affinity": -68,
       "electronegativity_pauling": 2.2,
-      "ionization_energies": [1037]
+      "ionization_energies": [
+        1037
+      ]
     },
     {
-      "name": "Francium",
+      "id": "Francium",
       "appearance": null,
       "atomic_mass": 223,
       "boil": 950,
@@ -2900,14 +3659,24 @@
       "symbol": "Fr",
       "xpos": 1,
       "ypos": 7,
-      "shells": [2, 8, 18, 32, 18, 8, 1],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        18,
+        8,
+        1
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s24p6 4d10 4f14 5s2 5p6 5d10 6s2 6p6 7s1",
       "electron_affinity": 46.89,
       "electronegativity_pauling": 0.79,
-      "ionization_energies": [380]
+      "ionization_energies": [
+        380
+      ]
     },
     {
-      "name": "Radium",
+      "id": "Radium",
       "appearance": "silvery white metallic",
       "atomic_mass": 226,
       "boil": 2010,
@@ -2927,14 +3696,25 @@
       "symbol": "Ra",
       "xpos": 2,
       "ypos": 7,
-      "shells": [2, 8, 18, 32, 18, 8, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        18,
+        8,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 6s2 6p6 7s2",
       "electron_affinity": 9.6485,
       "electronegativity_pauling": 0.9,
-      "ionization_energies": [509.3, 979.0]
+      "ionization_energies": [
+        509.3,
+        979
+      ]
     },
     {
-      "name": "Actinium",
+      "id": "Actinium",
       "appearance": null,
       "atomic_mass": 227,
       "boil": 3500,
@@ -2954,21 +3734,32 @@
       "symbol": "Ac",
       "xpos": 3,
       "ypos": 10,
-      "shells": [2, 8, 18, 32, 18, 9, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        18,
+        9,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 6s2 6p6 6d1 7s2",
       "electron_affinity": 33.77,
       "electronegativity_pauling": 1.1,
-      "ionization_energies": [499, 1170]
+      "ionization_energies": [
+        499,
+        1170
+      ]
     },
     {
-      "name": "Thorium",
+      "id": "Thorium",
       "appearance": "silvery, often with black tarnish",
       "atomic_mass": 232.03774,
       "boil": 5061,
       "category": "actinide",
       "color": null,
       "density": 11.724,
-      "discovered_by": "J\u00f6ns Jakob Berzelius",
+      "discovered_by": "Jöns Jakob Berzelius",
       "melt": 2023,
       "molar_heat": 26.23,
       "named_by": null,
@@ -2977,18 +3768,31 @@
       "phase": "Solid",
       "source": "https://en.wikipedia.org/wiki/Thorium",
       "spectral_img": null,
-      "summary": "Thorium is a chemical element with symbol Th and atomic number 90. A radioactive actinide metal, thorium is one of only two significantly radioactive elements that still occur naturally in large quantities as a primordial element (the other being uranium). It was discovered in 1828 by the Norwegian Reverend and amateur mineralogist Morten Thrane Esmark and identified by the Swedish chemist J\u00f6ns Jakob Berzelius, who named it after Thor, the Norse god of thunder.",
+      "summary": "Thorium is a chemical element with symbol Th and atomic number 90. A radioactive actinide metal, thorium is one of only two significantly radioactive elements that still occur naturally in large quantities as a primordial element (the other being uranium). It was discovered in 1828 by the Norwegian Reverend and amateur mineralogist Morten Thrane Esmark and identified by the Swedish chemist Jöns Jakob Berzelius, who named it after Thor, the Norse god of thunder.",
       "symbol": "Th",
       "xpos": 4,
       "ypos": 10,
-      "shells": [2, 8, 18, 32, 18, 10, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        18,
+        10,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 6s2 6p6 6d2 7s2",
       "electron_affinity": 112.72,
       "electronegativity_pauling": 1.3,
-      "ionization_energies": [587, 1110, 1930, 2780]
+      "ionization_energies": [
+        587,
+        1110,
+        1930,
+        2780
+      ]
     },
     {
-      "name": "Protactinium",
+      "id": "Protactinium",
       "appearance": "bright, silvery metallic luster",
       "atomic_mass": 231.035882,
       "boil": 4300,
@@ -3008,14 +3812,24 @@
       "symbol": "Pa",
       "xpos": 5,
       "ypos": 10,
-      "shells": [2, 8, 18, 32, 20, 9, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        20,
+        9,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f2 6s2 6p6 6d1 7s2",
       "electron_affinity": 53.03,
       "electronegativity_pauling": 1.5,
-      "ionization_energies": [568]
+      "ionization_energies": [
+        568
+      ]
     },
     {
-      "name": "Uranium",
+      "id": "Uranium",
       "appearance": null,
       "atomic_mass": 238.028913,
       "boil": 4404,
@@ -3035,14 +3849,25 @@
       "symbol": "U",
       "xpos": 6,
       "ypos": 10,
-      "shells": [2, 8, 18, 32, 21, 9, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        21,
+        9,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f3 6s2 6p6 6d1 7s2",
       "electron_affinity": 50.94,
       "electronegativity_pauling": 1.38,
-      "ionization_energies": [597.6, 1420]
+      "ionization_energies": [
+        597.6,
+        1420
+      ]
     },
     {
-      "name": "Neptunium",
+      "id": "Neptunium",
       "appearance": "silvery metallic",
       "atomic_mass": 237,
       "boil": 4447,
@@ -3062,14 +3887,24 @@
       "symbol": "Np",
       "xpos": 7,
       "ypos": 10,
-      "shells": [2, 8, 18, 32, 22, 9, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        22,
+        9,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f4 6s2 6p6 6d1 7s2",
       "electron_affinity": 45.85,
       "electronegativity_pauling": 1.36,
-      "ionization_energies": [604.5]
+      "ionization_energies": [
+        604.5
+      ]
     },
     {
-      "name": "Plutonium",
+      "id": "Plutonium",
       "appearance": "silvery white, tarnishing to dark gray in air",
       "atomic_mass": 244,
       "boil": 3505,
@@ -3089,14 +3924,24 @@
       "symbol": "Pu",
       "xpos": 8,
       "ypos": 10,
-      "shells": [2, 8, 18, 32, 24, 8, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        24,
+        8,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f6 6s2 6p6 7s2",
       "electron_affinity": -48.33,
       "electronegativity_pauling": 1.28,
-      "ionization_energies": [584.7]
+      "ionization_energies": [
+        584.7
+      ]
     },
     {
-      "name": "Americium",
+      "id": "Americium",
       "appearance": "silvery white",
       "atomic_mass": 243,
       "boil": 2880,
@@ -3116,14 +3961,24 @@
       "symbol": "Am",
       "xpos": 9,
       "ypos": 10,
-      "shells": [2, 8, 18, 32, 25, 8, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        25,
+        8,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f7 6s2 6p6 7s2",
       "electron_affinity": 9.93,
       "electronegativity_pauling": 1.13,
-      "ionization_energies": [578]
+      "ionization_energies": [
+        578
+      ]
     },
     {
-      "name": "Curium",
+      "id": "Curium",
       "appearance": "silvery metallic, glows purple in the dark",
       "atomic_mass": 247,
       "boil": 3383,
@@ -3139,18 +3994,28 @@
       "phase": "Solid",
       "source": "https://en.wikipedia.org/wiki/Curium",
       "spectral_img": null,
-      "summary": "Curium is a transuranic radioactive chemical element with symbol Cm and atomic number 96. This element of the actinide series was named after Marie and Pierre Curie \u2013 both were known for their research on radioactivity. Curium was first intentionally produced and identified in July 1944 by the group of Glenn T. Seaborg at the University of California, Berkeley.",
+      "summary": "Curium is a transuranic radioactive chemical element with symbol Cm and atomic number 96. This element of the actinide series was named after Marie and Pierre Curie – both were known for their research on radioactivity. Curium was first intentionally produced and identified in July 1944 by the group of Glenn T. Seaborg at the University of California, Berkeley.",
       "symbol": "Cm",
       "xpos": 10,
       "ypos": 10,
-      "shells": [2, 8, 18, 32, 25, 9, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        25,
+        9,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f7 6s2 6p6 6d1 7s2",
       "electron_affinity": 27.17,
       "electronegativity_pauling": 1.28,
-      "ionization_energies": [581]
+      "ionization_energies": [
+        581
+      ]
     },
     {
-      "name": "Berkelium",
+      "id": "Berkelium",
       "appearance": "silvery",
       "atomic_mass": 247,
       "boil": 2900,
@@ -3170,14 +4035,24 @@
       "symbol": "Bk",
       "xpos": 11,
       "ypos": 10,
-      "shells": [2, 8, 18, 32, 27, 8, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        27,
+        8,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f9 6s2 6p6 7s2",
       "electron_affinity": -165.24,
       "electronegativity_pauling": 1.3,
-      "ionization_energies": [601]
+      "ionization_energies": [
+        601
+      ]
     },
     {
-      "name": "Californium",
+      "id": "Californium",
       "appearance": "silvery",
       "atomic_mass": 251,
       "boil": 1743,
@@ -3197,14 +4072,24 @@
       "symbol": "Cf",
       "xpos": 12,
       "ypos": 10,
-      "shells": [2, 8, 18, 32, 28, 8, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        28,
+        8,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f10 6s2 6p6 7s2",
       "electron_affinity": -97.31,
       "electronegativity_pauling": 1.3,
-      "ionization_energies": [608]
+      "ionization_energies": [
+        608
+      ]
     },
     {
-      "name": "Einsteinium",
+      "id": "Einsteinium",
       "appearance": "silver-colored",
       "atomic_mass": 252,
       "boil": 1269,
@@ -3224,14 +4109,24 @@
       "symbol": "Es",
       "xpos": 13,
       "ypos": 10,
-      "shells": [2, 8, 18, 32, 29, 8, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        29,
+        8,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f11 6s2 6p6 7s2",
       "electron_affinity": -28.6,
       "electronegativity_pauling": 1.3,
-      "ionization_energies": [619]
+      "ionization_energies": [
+        619
+      ]
     },
     {
-      "name": "Fermium",
+      "id": "Fermium",
       "appearance": null,
       "atomic_mass": 257,
       "boil": null,
@@ -3251,14 +4146,24 @@
       "symbol": "Fm",
       "xpos": 14,
       "ypos": 10,
-      "shells": [2, 8, 18, 32, 30, 8, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        30,
+        8,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f12 6s2 6p6 7s2",
       "electron_affinity": 33.96,
       "electronegativity_pauling": 1.3,
-      "ionization_energies": [627]
+      "ionization_energies": [
+        627
+      ]
     },
     {
-      "name": "Mendelevium",
+      "id": "Mendelevium",
       "appearance": null,
       "atomic_mass": 258,
       "boil": null,
@@ -3278,14 +4183,24 @@
       "symbol": "Md",
       "xpos": 15,
       "ypos": 10,
-      "shells": [2, 8, 18, 32, 31, 8, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        31,
+        8,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f13 6s2 6p6 7s2",
       "electron_affinity": 93.91,
       "electronegativity_pauling": 1.3,
-      "ionization_energies": [635]
+      "ionization_energies": [
+        635
+      ]
     },
     {
-      "name": "Nobelium",
+      "id": "Nobelium",
       "appearance": null,
       "atomic_mass": 259,
       "boil": null,
@@ -3305,14 +4220,24 @@
       "symbol": "No",
       "xpos": 16,
       "ypos": 10,
-      "shells": [2, 8, 18, 32, 32, 8, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        8,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 7s2",
       "electron_affinity": -223.22,
       "electronegativity_pauling": 1.3,
-      "ionization_energies": [642]
+      "ionization_energies": [
+        642
+      ]
     },
     {
-      "name": "Lawrencium",
+      "id": "Lawrencium",
       "appearance": null,
       "atomic_mass": 266,
       "boil": null,
@@ -3332,14 +4257,24 @@
       "symbol": "Lr",
       "xpos": 17,
       "ypos": 10,
-      "shells": [2, 8, 18, 32, 32, 8, 3],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        8,
+        3
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 7s2 7p1",
       "electron_affinity": -30.04,
       "electronegativity_pauling": 1.3,
-      "ionization_energies": [470]
+      "ionization_energies": [
+        470
+      ]
     },
     {
-      "name": "Rutherfordium",
+      "id": "Rutherfordium",
       "appearance": null,
       "atomic_mass": 267,
       "boil": 5800,
@@ -3359,14 +4294,24 @@
       "symbol": "Rf",
       "xpos": 4,
       "ypos": 7,
-      "shells": [2, 8, 18, 32, 32, 10, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        10,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 6d2 7s2",
       "electron_affinity": null,
       "electronegativity_pauling": null,
-      "ionization_energies": [580]
+      "ionization_energies": [
+        580
+      ]
     },
     {
-      "name": "Dubnium",
+      "id": "Dubnium",
       "appearance": null,
       "atomic_mass": 268,
       "boil": null,
@@ -3386,20 +4331,28 @@
       "symbol": "Db",
       "xpos": 5,
       "ypos": 7,
-      "shells": [2, 8, 18, 32, 32, 11, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        11,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 6d3 7s2",
       "electron_affinity": null,
       "electronegativity_pauling": null,
       "ionization_energies": []
     },
     {
-      "name": "Seaborgium",
+      "id": "Seaborgium",
       "appearance": null,
       "atomic_mass": 269,
       "boil": null,
       "category": "transition metal",
       "color": null,
-      "density": 35.0,
+      "density": 35,
       "discovered_by": "Lawrence Berkeley National Laboratory",
       "melt": null,
       "molar_heat": null,
@@ -3413,21 +4366,29 @@
       "symbol": "Sg",
       "xpos": 6,
       "ypos": 7,
-      "shells": [2, 8, 18, 32, 32, 12, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        12,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 6d4 7s2",
       "electron_affinity": null,
       "electronegativity_pauling": null,
       "ionization_energies": []
     },
     {
-      "name": "Bohrium",
+      "id": "Bohrium",
       "appearance": null,
       "atomic_mass": 270,
       "boil": null,
       "category": "transition metal",
       "color": null,
       "density": 37.1,
-      "discovered_by": "Gesellschaft f\u00fcr Schwerionenforschung",
+      "discovered_by": "Gesellschaft für Schwerionenforschung",
       "melt": null,
       "molar_heat": null,
       "named_by": null,
@@ -3440,21 +4401,29 @@
       "symbol": "Bh",
       "xpos": 7,
       "ypos": 7,
-      "shells": [2, 8, 18, 32, 32, 13, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        13,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 6d5 7s2",
       "electron_affinity": null,
       "electronegativity_pauling": null,
       "ionization_energies": []
     },
     {
-      "name": "Hassium",
+      "id": "Hassium",
       "appearance": null,
       "atomic_mass": 269,
       "boil": null,
       "category": "transition metal",
       "color": null,
       "density": 40.7,
-      "discovered_by": "Gesellschaft f\u00fcr Schwerionenforschung",
+      "discovered_by": "Gesellschaft für Schwerionenforschung",
       "melt": 126,
       "molar_heat": null,
       "named_by": null,
@@ -3467,21 +4436,29 @@
       "symbol": "Hs",
       "xpos": 8,
       "ypos": 7,
-      "shells": [2, 8, 18, 32, 32, 14, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        14,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 6d6 7s2",
       "electron_affinity": null,
       "electronegativity_pauling": null,
       "ionization_energies": []
     },
     {
-      "name": "Meitnerium",
+      "id": "Meitnerium",
       "appearance": null,
       "atomic_mass": 278,
       "boil": null,
       "category": "unknown, probably transition metal",
       "color": null,
       "density": 37.4,
-      "discovered_by": "Gesellschaft f\u00fcr Schwerionenforschung",
+      "discovered_by": "Gesellschaft für Schwerionenforschung",
       "melt": null,
       "molar_heat": null,
       "named_by": null,
@@ -3494,21 +4471,29 @@
       "symbol": "Mt",
       "xpos": 9,
       "ypos": 7,
-      "shells": [2, 8, 18, 32, 32, 15, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        15,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 6d7 7s2",
       "electron_affinity": null,
       "electronegativity_pauling": null,
       "ionization_energies": []
     },
     {
-      "name": "Darmstadtium",
+      "id": "Darmstadtium",
       "appearance": null,
       "atomic_mass": 281,
       "boil": null,
       "category": "unknown, probably transition metal",
       "color": null,
       "density": 34.8,
-      "discovered_by": "Gesellschaft f\u00fcr Schwerionenforschung",
+      "discovered_by": "Gesellschaft für Schwerionenforschung",
       "melt": null,
       "molar_heat": null,
       "named_by": null,
@@ -3521,21 +4506,29 @@
       "symbol": "Ds",
       "xpos": 10,
       "ypos": 7,
-      "shells": [2, 8, 18, 32, 32, 16, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        16,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 6d8 7s2",
       "electron_affinity": null,
       "electronegativity_pauling": null,
       "ionization_energies": []
     },
     {
-      "name": "Roentgenium",
+      "id": "Roentgenium",
       "appearance": null,
       "atomic_mass": 282,
       "boil": null,
       "category": "unknown, probably transition metal",
       "color": null,
       "density": 28.7,
-      "discovered_by": "Gesellschaft f\u00fcr Schwerionenforschung",
+      "discovered_by": "Gesellschaft für Schwerionenforschung",
       "melt": null,
       "molar_heat": null,
       "named_by": null,
@@ -3548,21 +4541,29 @@
       "symbol": "Rg",
       "xpos": 11,
       "ypos": 7,
-      "shells": [2, 8, 18, 32, 32, 17, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        17,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 6d9 7s2",
-      "electron_affinity": 151.0,
+      "electron_affinity": 151,
       "electronegativity_pauling": null,
       "ionization_energies": []
     },
     {
-      "name": "Copernicium",
+      "id": "Copernicium",
       "appearance": null,
       "atomic_mass": 285,
       "boil": 3570,
       "category": "transition metal",
       "color": null,
       "density": 23.7,
-      "discovered_by": "Gesellschaft f\u00fcr Schwerionenforschung",
+      "discovered_by": "Gesellschaft für Schwerionenforschung",
       "melt": null,
       "molar_heat": null,
       "named_by": null,
@@ -3575,14 +4576,22 @@
       "symbol": "Cn",
       "xpos": 12,
       "ypos": 7,
-      "shells": [2, 8, 18, 32, 32, 18, 2],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        18,
+        2
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 6d10 7s2",
       "electron_affinity": null,
       "electronegativity_pauling": null,
       "ionization_energies": []
     },
     {
-      "name": "Nihonium",
+      "id": "Nihonium",
       "appearance": null,
       "atomic_mass": 286,
       "boil": 1430,
@@ -3602,14 +4611,22 @@
       "symbol": "Nh",
       "xpos": 13,
       "ypos": 7,
-      "shells": [2, 8, 18, 32, 32, 18, 3],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        18,
+        3
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 6d10 7s2 7p1",
       "electron_affinity": 66.6,
       "electronegativity_pauling": null,
       "ionization_energies": []
     },
     {
-      "name": "Flerovium",
+      "id": "Flerovium",
       "appearance": null,
       "atomic_mass": 289,
       "boil": 420,
@@ -3629,14 +4646,22 @@
       "symbol": "Fl",
       "xpos": 14,
       "ypos": 7,
-      "shells": [2, 8, 18, 32, 32, 18, 4],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        18,
+        4
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 6d10 7s2 7p2",
       "electron_affinity": null,
       "electronegativity_pauling": null,
       "ionization_energies": []
     },
     {
-      "name": "Moscovium",
+      "id": "Moscovium",
       "appearance": null,
       "atomic_mass": 289,
       "boil": 1400,
@@ -3656,14 +4681,22 @@
       "symbol": "Mc",
       "xpos": 15,
       "ypos": 7,
-      "shells": [2, 8, 18, 32, 32, 18, 5],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        18,
+        5
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 6d10 7s2 7p3",
       "electron_affinity": 35.3,
       "electronegativity_pauling": null,
       "ionization_energies": []
     },
     {
-      "name": "Livermorium",
+      "id": "Livermorium",
       "appearance": null,
       "atomic_mass": 293,
       "boil": 1085,
@@ -3683,14 +4716,22 @@
       "symbol": "Lv",
       "xpos": 16,
       "ypos": 7,
-      "shells": [2, 8, 18, 32, 32, 18, 6],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        18,
+        6
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 6d10 7s2 7p4",
       "electron_affinity": 74.9,
       "electronegativity_pauling": null,
       "ionization_energies": []
     },
     {
-      "name": "Tennessine",
+      "id": "Tennessine",
       "appearance": null,
       "atomic_mass": 294,
       "boil": 883,
@@ -3710,14 +4751,22 @@
       "symbol": "Ts",
       "xpos": 17,
       "ypos": 7,
-      "shells": [2, 8, 18, 32, 32, 18, 7],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        18,
+        7
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 6d10 7s2 7p5",
       "electron_affinity": 165.9,
       "electronegativity_pauling": null,
       "ionization_energies": []
     },
     {
-      "name": "Oganesson",
+      "id": "Oganesson",
       "appearance": null,
       "atomic_mass": 294,
       "boil": 350,
@@ -3737,14 +4786,22 @@
       "symbol": "Og",
       "xpos": 18,
       "ypos": 7,
-      "shells": [2, 8, 18, 32, 32, 18, 8],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        18,
+        8
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 6d10 7s2 7p6",
       "electron_affinity": 5.40318,
       "electronegativity_pauling": null,
       "ionization_energies": []
     },
     {
-      "name": "Ununennium",
+      "id": "Ununennium",
       "appearance": null,
       "atomic_mass": 315,
       "boil": 630,
@@ -3764,7 +4821,16 @@
       "symbol": "Uue",
       "xpos": 1,
       "ypos": 8,
-      "shells": [2, 8, 18, 32, 32, 18, 8, 1],
+      "shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        18,
+        8,
+        1
+      ],
       "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 6d10 7s2 7p6 8s1",
       "electron_affinity": 63.87,
       "electronegativity_pauling": null,
@@ -3773,58 +4839,1156 @@
   ],
   "groups": [
     {
-      "name": "A",
-      "level": [
-        { "number": 1, "content": [] },
-        { "number": 2, "content": [] },
-        { "number": 3, "content": [] },
-        { "number": 4, "content": [] },
-        { "number": 5, "content": [] },
-        { "number": 6, "content": [] }
+      "id": "A",
+      "levels": [
+        {
+          "number": 1,
+          "content": [
+            {
+              "id": "Chlorine",
+              "appearance": "pale yellow-green gas",
+              "atomic_mass": 35.45,
+              "boil": 239.11,
+              "category": "diatomic nonmetal",
+              "color": null,
+              "density": 3.2,
+              "discovered_by": "Carl Wilhelm Scheele",
+              "melt": 171.6,
+              "molar_heat": null,
+              "named_by": null,
+              "number": 17,
+              "period": 3,
+              "phase": "Gas",
+              "source": "https://en.wikipedia.org/wiki/Chlorine",
+              "spectral_img": "https://en.wikipedia.org/wiki/File:Chlorine_spectrum_visible.png",
+              "summary": "Chlorine is a chemical element with symbol Cl and atomic number 17. It also has a relative atomic mass of 35.5. Chlorine is in the halogen group (17) and is the second lightest halogen following fluorine.",
+              "symbol": "Cl",
+              "xpos": 17,
+              "ypos": 3,
+              "shells": [
+                2,
+                8,
+                7
+              ],
+              "electron_configuration": "1s2 2s2 2p6 3s2 3p5",
+              "electron_affinity": 348.575,
+              "electronegativity_pauling": 3.16,
+              "ionization_energies": [
+                1251.2,
+                2298,
+                3822,
+                5158.6,
+                6542,
+                9362,
+                11018,
+                33604,
+                38600,
+                43961,
+                51068,
+                57119,
+                63363,
+                72341,
+                78095,
+                352994,
+                380760
+              ]
+            },
+            {
+              "id": "Hydrogen",
+              "appearance": "colorless gas",
+              "atomic_mass": 1.008,
+              "boil": 20.271,
+              "category": "diatomic nonmetal",
+              "color": null,
+              "density": 0.08988,
+              "discovered_by": "Henry Cavendish",
+              "melt": 13.99,
+              "molar_heat": 28.836,
+              "named_by": "Antoine Lavoisier",
+              "number": 1,
+              "period": 1,
+              "phase": "Gas",
+              "source": "https://en.wikipedia.org/wiki/Hydrogen",
+              "spectral_img": "https://en.wikipedia.org/wiki/File:Hydrogen_Spectra.jpg",
+              "summary": "Hydrogen is a chemical element with chemical symbol H and atomic number 1. With an atomic weight of 1.00794 u, hydrogen is the lightest element on the periodic table. Its monatomic form (H) is the most abundant chemical substance in the Universe, constituting roughly 75% of all baryonic mass.",
+              "symbol": "H",
+              "xpos": 1,
+              "ypos": 1,
+              "shells": [
+                1
+              ],
+              "electron_configuration": "1s1",
+              "electron_affinity": 72.769,
+              "electronegativity_pauling": 2.2,
+              "ionization_energies": [
+                1312
+              ]
+            },
+            {
+              "id": "Hydrogen",
+              "appearance": "colorless gas",
+              "atomic_mass": 1.008,
+              "boil": 20.271,
+              "category": "diatomic nonmetal",
+              "color": null,
+              "density": 0.08988,
+              "discovered_by": "Henry Cavendish",
+              "melt": 13.99,
+              "molar_heat": 28.836,
+              "named_by": "Antoine Lavoisier",
+              "number": 1,
+              "period": 1,
+              "phase": "Gas",
+              "source": "https://en.wikipedia.org/wiki/Hydrogen",
+              "spectral_img": "https://en.wikipedia.org/wiki/File:Hydrogen_Spectra.jpg",
+              "summary": "Hydrogen is a chemical element with chemical symbol H and atomic number 1. With an atomic weight of 1.00794 u, hydrogen is the lightest element on the periodic table. Its monatomic form (H) is the most abundant chemical substance in the Universe, constituting roughly 75% of all baryonic mass.",
+              "symbol": "H",
+              "xpos": 1,
+              "ypos": 1,
+              "shells": [
+                1
+              ],
+              "electron_configuration": "1s1",
+              "electron_affinity": 72.769,
+              "electronegativity_pauling": 2.2,
+              "ionization_energies": [
+                1312
+              ]
+            },
+            {
+              "id": "Hydrogen",
+              "appearance": "colorless gas",
+              "atomic_mass": 1.008,
+              "boil": 20.271,
+              "category": "diatomic nonmetal",
+              "color": null,
+              "density": 0.08988,
+              "discovered_by": "Henry Cavendish",
+              "melt": 13.99,
+              "molar_heat": 28.836,
+              "named_by": "Antoine Lavoisier",
+              "number": 1,
+              "period": 1,
+              "phase": "Gas",
+              "source": "https://en.wikipedia.org/wiki/Hydrogen",
+              "spectral_img": "https://en.wikipedia.org/wiki/File:Hydrogen_Spectra.jpg",
+              "summary": "Hydrogen is a chemical element with chemical symbol H and atomic number 1. With an atomic weight of 1.00794 u, hydrogen is the lightest element on the periodic table. Its monatomic form (H) is the most abundant chemical substance in the Universe, constituting roughly 75% of all baryonic mass.",
+              "symbol": "H",
+              "xpos": 1,
+              "ypos": 1,
+              "shells": [
+                1
+              ],
+              "electron_configuration": "1s1",
+              "electron_affinity": 72.769,
+              "electronegativity_pauling": 2.2,
+              "ionization_energies": [
+                1312
+              ]
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "content": [
+            {
+              "id": "Hydrogen",
+              "appearance": "colorless gas",
+              "atomic_mass": 1.008,
+              "boil": 20.271,
+              "category": "diatomic nonmetal",
+              "color": null,
+              "density": 0.08988,
+              "discovered_by": "Henry Cavendish",
+              "melt": 13.99,
+              "molar_heat": 28.836,
+              "named_by": "Antoine Lavoisier",
+              "number": 1,
+              "period": 1,
+              "phase": "Gas",
+              "source": "https://en.wikipedia.org/wiki/Hydrogen",
+              "spectral_img": "https://en.wikipedia.org/wiki/File:Hydrogen_Spectra.jpg",
+              "summary": "Hydrogen is a chemical element with chemical symbol H and atomic number 1. With an atomic weight of 1.00794 u, hydrogen is the lightest element on the periodic table. Its monatomic form (H) is the most abundant chemical substance in the Universe, constituting roughly 75% of all baryonic mass.",
+              "symbol": "H",
+              "xpos": 1,
+              "ypos": 1,
+              "shells": [
+                1
+              ],
+              "electron_configuration": "1s1",
+              "electron_affinity": 72.769,
+              "electronegativity_pauling": 2.2,
+              "ionization_energies": [
+                1312
+              ]
+            },
+            {
+              "id": "Hydrogen",
+              "appearance": "colorless gas",
+              "atomic_mass": 1.008,
+              "boil": 20.271,
+              "category": "diatomic nonmetal",
+              "color": null,
+              "density": 0.08988,
+              "discovered_by": "Henry Cavendish",
+              "melt": 13.99,
+              "molar_heat": 28.836,
+              "named_by": "Antoine Lavoisier",
+              "number": 1,
+              "period": 1,
+              "phase": "Gas",
+              "source": "https://en.wikipedia.org/wiki/Hydrogen",
+              "spectral_img": "https://en.wikipedia.org/wiki/File:Hydrogen_Spectra.jpg",
+              "summary": "Hydrogen is a chemical element with chemical symbol H and atomic number 1. With an atomic weight of 1.00794 u, hydrogen is the lightest element on the periodic table. Its monatomic form (H) is the most abundant chemical substance in the Universe, constituting roughly 75% of all baryonic mass.",
+              "symbol": "H",
+              "xpos": 1,
+              "ypos": 1,
+              "shells": [
+                1
+              ],
+              "electron_configuration": "1s1",
+              "electron_affinity": 72.769,
+              "electronegativity_pauling": 2.2,
+              "ionization_energies": [
+                1312
+              ]
+            },
+            {
+              "id": "Sodium",
+              "appearance": "silvery white metallic",
+              "atomic_mass": 22.989769282,
+              "boil": 1156.09,
+              "category": "alkali metal",
+              "color": null,
+              "density": 0.968,
+              "discovered_by": "Humphry Davy",
+              "melt": 370.944,
+              "molar_heat": 28.23,
+              "named_by": null,
+              "number": 11,
+              "period": 3,
+              "phase": "Solid",
+              "source": "https://en.wikipedia.org/wiki/Sodium",
+              "spectral_img": "https://en.wikipedia.org/wiki/File:Sodium_Spectra.jpg",
+              "summary": "Sodium /ˈsoʊdiəm/ is a chemical element with symbol Na (from Ancient Greek Νάτριο) and atomic number 11. It is a soft, silver-white, highly reactive metal. In the Periodic table it is in column 1 (alkali metals), and shares with the other six elements in that column that it has a single electron in its outer shell, which it readily donates, creating a positively charged atom - a cation.",
+              "symbol": "Na",
+              "xpos": 1,
+              "ypos": 3,
+              "shells": [
+                2,
+                8,
+                1
+              ],
+              "electron_configuration": "1s2 2s2 2p6 3s1",
+              "electron_affinity": 52.867,
+              "electronegativity_pauling": 0.93,
+              "ionization_energies": [
+                495.8,
+                4562,
+                6910.3,
+                9543,
+                13354,
+                16613,
+                20117,
+                25496,
+                28932,
+                141362,
+                159076
+              ]
+            },
+            {
+              "id": "Hydrogen",
+              "appearance": "colorless gas",
+              "atomic_mass": 1.008,
+              "boil": 20.271,
+              "category": "diatomic nonmetal",
+              "color": null,
+              "density": 0.08988,
+              "discovered_by": "Henry Cavendish",
+              "melt": 13.99,
+              "molar_heat": 28.836,
+              "named_by": "Antoine Lavoisier",
+              "number": 1,
+              "period": 1,
+              "phase": "Gas",
+              "source": "https://en.wikipedia.org/wiki/Hydrogen",
+              "spectral_img": "https://en.wikipedia.org/wiki/File:Hydrogen_Spectra.jpg",
+              "summary": "Hydrogen is a chemical element with chemical symbol H and atomic number 1. With an atomic weight of 1.00794 u, hydrogen is the lightest element on the periodic table. Its monatomic form (H) is the most abundant chemical substance in the Universe, constituting roughly 75% of all baryonic mass.",
+              "symbol": "H",
+              "xpos": 1,
+              "ypos": 1,
+              "shells": [
+                1
+              ],
+              "electron_configuration": "1s1",
+              "electron_affinity": 72.769,
+              "electronegativity_pauling": 2.2,
+              "ionization_energies": [
+                1312
+              ]
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "content": [
+            {
+              "id": "Hydrogen 3-1",
+              "appearance": "colorless gas",
+              "atomic_mass": 1.008,
+              "boil": 20.271,
+              "category": "diatomic nonmetal",
+              "color": null,
+              "density": 0.08988,
+              "discovered_by": "Henry Cavendish",
+              "melt": 13.99,
+              "molar_heat": 28.836,
+              "named_by": "Antoine Lavoisier",
+              "number": 1,
+              "period": 1,
+              "phase": "Gas",
+              "source": "https://en.wikipedia.org/wiki/Hydrogen",
+              "spectral_img": "https://en.wikipedia.org/wiki/File:Hydrogen_Spectra.jpg",
+              "summary": "Hydrogen is a chemical element with chemical symbol H and atomic number 1. With an atomic weight of 1.00794 u, hydrogen is the lightest element on the periodic table. Its monatomic form (H) is the most abundant chemical substance in the Universe, constituting roughly 75% of all baryonic mass.",
+              "symbol": "H",
+              "xpos": 1,
+              "ypos": 1,
+              "shells": [
+                1
+              ],
+              "electron_configuration": "1s1",
+              "electron_affinity": 72.769,
+              "electronegativity_pauling": 2.2,
+              "ionization_energies": [
+                1312
+              ]
+            },
+            {
+              "id": "Tellurium",
+              "appearance": null,
+              "atomic_mass": 127.603,
+              "boil": 1261,
+              "category": "metalloid",
+              "color": null,
+              "density": 6.24,
+              "discovered_by": "Franz-Joseph Müller von Reichenstein",
+              "melt": 722.66,
+              "molar_heat": 25.73,
+              "named_by": null,
+              "number": 52,
+              "period": 5,
+              "phase": "Solid",
+              "source": "https://en.wikipedia.org/wiki/Tellurium",
+              "spectral_img": null,
+              "summary": "Tellurium is a chemical element with symbol Te and atomic number 52. It is a brittle, mildly toxic, rare, silver-white metalloid. Tellurium is chemically related to selenium and sulfur.",
+              "symbol": "Te",
+              "xpos": 16,
+              "ypos": 5,
+              "shells": [
+                2,
+                8,
+                18,
+                18,
+                6
+              ],
+              "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p4",
+              "electron_affinity": 190.161,
+              "electronegativity_pauling": 2.1,
+              "ionization_energies": [
+                869.3,
+                1790,
+                2698,
+                3610,
+                5668,
+                6820,
+                13200
+              ]
+            },
+            {
+              "id": "Hydrogen 3-2",
+              "appearance": "colorless gas",
+              "atomic_mass": 1.008,
+              "boil": 20.271,
+              "category": "diatomic nonmetal",
+              "color": null,
+              "density": 0.08988,
+              "discovered_by": "Henry Cavendish",
+              "melt": 13.99,
+              "molar_heat": 28.836,
+              "named_by": "Antoine Lavoisier",
+              "number": 1,
+              "period": 1,
+              "phase": "Gas",
+              "source": "https://en.wikipedia.org/wiki/Hydrogen",
+              "spectral_img": "https://en.wikipedia.org/wiki/File:Hydrogen_Spectra.jpg",
+              "summary": "Hydrogen is a chemical element with chemical symbol H and atomic number 1. With an atomic weight of 1.00794 u, hydrogen is the lightest element on the periodic table. Its monatomic form (H) is the most abundant chemical substance in the Universe, constituting roughly 75% of all baryonic mass.",
+              "symbol": "H",
+              "xpos": 1,
+              "ypos": 1,
+              "shells": [
+                1
+              ],
+              "electron_configuration": "1s1",
+              "electron_affinity": 72.769,
+              "electronegativity_pauling": 2.2,
+              "ionization_energies": [
+                1312
+              ]
+            },
+            {
+              "id": "Hydrogen 3-3",
+              "appearance": "colorless gas",
+              "atomic_mass": 1.008,
+              "boil": 20.271,
+              "category": "diatomic nonmetal",
+              "color": null,
+              "density": 0.08988,
+              "discovered_by": "Henry Cavendish",
+              "melt": 13.99,
+              "molar_heat": 28.836,
+              "named_by": "Antoine Lavoisier",
+              "number": 1,
+              "period": 1,
+              "phase": "Gas",
+              "source": "https://en.wikipedia.org/wiki/Hydrogen",
+              "spectral_img": "https://en.wikipedia.org/wiki/File:Hydrogen_Spectra.jpg",
+              "summary": "Hydrogen is a chemical element with chemical symbol H and atomic number 1. With an atomic weight of 1.00794 u, hydrogen is the lightest element on the periodic table. Its monatomic form (H) is the most abundant chemical substance in the Universe, constituting roughly 75% of all baryonic mass.",
+              "symbol": "H",
+              "xpos": 1,
+              "ypos": 1,
+              "shells": [
+                1
+              ],
+              "electron_configuration": "1s1",
+              "electron_affinity": 72.769,
+              "electronegativity_pauling": 2.2,
+              "ionization_energies": [
+                1312
+              ]
+            },
+            {
+              "id": "Chlorine",
+              "appearance": "pale yellow-green gas",
+              "atomic_mass": 35.45,
+              "boil": 239.11,
+              "category": "diatomic nonmetal",
+              "color": null,
+              "density": 3.2,
+              "discovered_by": "Carl Wilhelm Scheele",
+              "melt": 171.6,
+              "molar_heat": null,
+              "named_by": null,
+              "number": 17,
+              "period": 3,
+              "phase": "Gas",
+              "source": "https://en.wikipedia.org/wiki/Chlorine",
+              "spectral_img": "https://en.wikipedia.org/wiki/File:Chlorine_spectrum_visible.png",
+              "summary": "Chlorine is a chemical element with symbol Cl and atomic number 17. It also has a relative atomic mass of 35.5. Chlorine is in the halogen group (17) and is the second lightest halogen following fluorine.",
+              "symbol": "Cl",
+              "xpos": 17,
+              "ypos": 3,
+              "shells": [
+                2,
+                8,
+                7
+              ],
+              "electron_configuration": "1s2 2s2 2p6 3s2 3p5",
+              "electron_affinity": 348.575,
+              "electronegativity_pauling": 3.16,
+              "ionization_energies": [
+                1251.2,
+                2298,
+                3822,
+                5158.6,
+                6542,
+                9362,
+                11018,
+                33604,
+                38600,
+                43961,
+                51068,
+                57119,
+                63363,
+                72341,
+                78095,
+                352994,
+                380760
+              ]
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "content": [
+            {
+              "id": "Hydrogen 4-1",
+              "appearance": "colorless gas",
+              "atomic_mass": 1.008,
+              "boil": 20.271,
+              "category": "diatomic nonmetal",
+              "color": null,
+              "density": 0.08988,
+              "discovered_by": "Henry Cavendish",
+              "melt": 13.99,
+              "molar_heat": 28.836,
+              "named_by": "Antoine Lavoisier",
+              "number": 1,
+              "period": 1,
+              "phase": "Gas",
+              "source": "https://en.wikipedia.org/wiki/Hydrogen",
+              "spectral_img": "https://en.wikipedia.org/wiki/File:Hydrogen_Spectra.jpg",
+              "summary": "Hydrogen is a chemical element with chemical symbol H and atomic number 1. With an atomic weight of 1.00794 u, hydrogen is the lightest element on the periodic table. Its monatomic form (H) is the most abundant chemical substance in the Universe, constituting roughly 75% of all baryonic mass.",
+              "symbol": "H",
+              "xpos": 1,
+              "ypos": 1,
+              "shells": [
+                1
+              ],
+              "electron_configuration": "1s1",
+              "electron_affinity": 72.769,
+              "electronegativity_pauling": 2.2,
+              "ionization_energies": [
+                1312
+              ]
+            },
+            {
+              "id": "Zinc",
+              "appearance": "silver-gray",
+              "atomic_mass": 65.382,
+              "boil": 1180,
+              "category": "transition metal",
+              "color": null,
+              "density": 7.14,
+              "discovered_by": "India",
+              "melt": 692.68,
+              "molar_heat": 25.47,
+              "named_by": null,
+              "number": 30,
+              "period": 4,
+              "phase": "Solid",
+              "source": "https://en.wikipedia.org/wiki/Zinc",
+              "spectral_img": null,
+              "summary": "Zinc, in commerce also spelter, is a chemical element with symbol Zn and atomic number 30. It is the first element of group 12 of the periodic table. In some respects zinc is chemically similar to magnesium:its ion is of similar size and its only common oxidation state is +2.",
+              "symbol": "Zn",
+              "xpos": 12,
+              "ypos": 4,
+              "shells": [
+                2,
+                8,
+                18,
+                2
+              ],
+              "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d1 4s2",
+              "electron_affinity": -58,
+              "electronegativity_pauling": 1.65,
+              "ionization_energies": [
+                906.4,
+                1733.3,
+                3833,
+                5731,
+                7970,
+                10400,
+                12900,
+                16800,
+                19600,
+                23000,
+                26400,
+                29990,
+                40490,
+                43800,
+                47300,
+                52300,
+                55900,
+                59700,
+                67300,
+                71200,
+                179100
+              ]
+            },
+            {
+              "id": "Hydrogen 4-2",
+              "appearance": "colorless gas",
+              "atomic_mass": 1.008,
+              "boil": 20.271,
+              "category": "diatomic nonmetal",
+              "color": null,
+              "density": 0.08988,
+              "discovered_by": "Henry Cavendish",
+              "melt": 13.99,
+              "molar_heat": 28.836,
+              "named_by": "Antoine Lavoisier",
+              "number": 1,
+              "period": 1,
+              "phase": "Gas",
+              "source": "https://en.wikipedia.org/wiki/Hydrogen",
+              "spectral_img": "https://en.wikipedia.org/wiki/File:Hydrogen_Spectra.jpg",
+              "summary": "Hydrogen is a chemical element with chemical symbol H and atomic number 1. With an atomic weight of 1.00794 u, hydrogen is the lightest element on the periodic table. Its monatomic form (H) is the most abundant chemical substance in the Universe, constituting roughly 75% of all baryonic mass.",
+              "symbol": "H",
+              "xpos": 1,
+              "ypos": 1,
+              "shells": [
+                1
+              ],
+              "electron_configuration": "1s1",
+              "electron_affinity": 72.769,
+              "electronegativity_pauling": 2.2,
+              "ionization_energies": [
+                1312
+              ]
+            },
+            {
+              "id": "Hydrogen 4-3",
+              "appearance": "colorless gas",
+              "atomic_mass": 1.008,
+              "boil": 20.271,
+              "category": "diatomic nonmetal",
+              "color": null,
+              "density": 0.08988,
+              "discovered_by": "Henry Cavendish",
+              "melt": 13.99,
+              "molar_heat": 28.836,
+              "named_by": "Antoine Lavoisier",
+              "number": 1,
+              "period": 1,
+              "phase": "Gas",
+              "source": "https://en.wikipedia.org/wiki/Hydrogen",
+              "spectral_img": "https://en.wikipedia.org/wiki/File:Hydrogen_Spectra.jpg",
+              "summary": "Hydrogen is a chemical element with chemical symbol H and atomic number 1. With an atomic weight of 1.00794 u, hydrogen is the lightest element on the periodic table. Its monatomic form (H) is the most abundant chemical substance in the Universe, constituting roughly 75% of all baryonic mass.",
+              "symbol": "H",
+              "xpos": 1,
+              "ypos": 1,
+              "shells": [
+                1
+              ],
+              "electron_configuration": "1s1",
+              "electron_affinity": 72.769,
+              "electronegativity_pauling": 2.2,
+              "ionization_energies": [
+                1312
+              ]
+            },
+            {
+              "id": "Neon",
+              "appearance": "colorless gas exhibiting an orange-red glow when placed in a high voltage electric field",
+              "atomic_mass": 20.17976,
+              "boil": 27.104,
+              "category": "noble gas",
+              "color": null,
+              "density": 0.9002,
+              "discovered_by": "Morris Travers",
+              "melt": 24.56,
+              "molar_heat": null,
+              "named_by": null,
+              "number": 10,
+              "period": 2,
+              "phase": "Gas",
+              "source": "https://en.wikipedia.org/wiki/Neon",
+              "spectral_img": "https://en.wikipedia.org/wiki/File:Neon_spectra.jpg",
+              "summary": "Neon is a chemical element with symbol Ne and atomic number 10. It is in group 18 (noble gases) of the periodic table. Neon is a colorless, odorless, inert monatomic gas under standard conditions, with about two-thirds the density of air.",
+              "symbol": "Ne",
+              "xpos": 18,
+              "ypos": 2,
+              "shells": [
+                2,
+                8
+              ],
+              "electron_configuration": "1s2 2s2 2p6",
+              "electron_affinity": -116,
+              "electronegativity_pauling": null,
+              "ionization_energies": [
+                2080.7,
+                3952.3,
+                6122,
+                9371,
+                12177,
+                15238,
+                19999,
+                23069.5,
+                115379.5,
+                131432
+              ]
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "content": [
+            {
+              "id": "Oxygen",
+              "appearance": null,
+              "atomic_mass": 15.999,
+              "boil": 90.188,
+              "category": "diatomic nonmetal",
+              "color": null,
+              "density": 1.429,
+              "discovered_by": "Carl Wilhelm Scheele",
+              "melt": 54.36,
+              "molar_heat": null,
+              "named_by": "Antoine Lavoisier",
+              "number": 8,
+              "period": 2,
+              "phase": "Gas",
+              "source": "https://en.wikipedia.org/wiki/Oxygen",
+              "spectral_img": "https://en.wikipedia.org/wiki/File:Oxygen_spectre.jpg",
+              "summary": "Oxygen is a chemical element with symbol O and atomic number 8. It is a member of the chalcogen group on the periodic table and is a highly reactive nonmetal and oxidizing agent that readily forms compounds (notably oxides) with most elements. By mass, oxygen is the third-most abundant element in the universe, after hydrogen and helium.",
+              "symbol": "O",
+              "xpos": 16,
+              "ypos": 2,
+              "shells": [
+                2,
+                6
+              ],
+              "electron_configuration": "1s2 2s2 2p4",
+              "electron_affinity": 140.976,
+              "electronegativity_pauling": 3.44,
+              "ionization_energies": [
+                1313.9,
+                3388.3,
+                5300.5,
+                7469.2,
+                10989.5,
+                13326.5,
+                71330,
+                84078
+              ]
+            },
+            {
+              "id": "Neon",
+              "appearance": "colorless gas exhibiting an orange-red glow when placed in a high voltage electric field",
+              "atomic_mass": 20.17976,
+              "boil": 27.104,
+              "category": "noble gas",
+              "color": null,
+              "density": 0.9002,
+              "discovered_by": "Morris Travers",
+              "melt": 24.56,
+              "molar_heat": null,
+              "named_by": null,
+              "number": 10,
+              "period": 2,
+              "phase": "Gas",
+              "source": "https://en.wikipedia.org/wiki/Neon",
+              "spectral_img": "https://en.wikipedia.org/wiki/File:Neon_spectra.jpg",
+              "summary": "Neon is a chemical element with symbol Ne and atomic number 10. It is in group 18 (noble gases) of the periodic table. Neon is a colorless, odorless, inert monatomic gas under standard conditions, with about two-thirds the density of air.",
+              "symbol": "Ne",
+              "xpos": 18,
+              "ypos": 2,
+              "shells": [
+                2,
+                8
+              ],
+              "electron_configuration": "1s2 2s2 2p6",
+              "electron_affinity": -116,
+              "electronegativity_pauling": null,
+              "ionization_energies": [
+                2080.7,
+                3952.3,
+                6122,
+                9371,
+                12177,
+                15238,
+                19999,
+                23069.5,
+                115379.5,
+                131432
+              ]
+            },
+            {
+              "id": "Oxygen",
+              "appearance": null,
+              "atomic_mass": 15.999,
+              "boil": 90.188,
+              "category": "diatomic nonmetal",
+              "color": null,
+              "density": 1.429,
+              "discovered_by": "Carl Wilhelm Scheele",
+              "melt": 54.36,
+              "molar_heat": null,
+              "named_by": "Antoine Lavoisier",
+              "number": 8,
+              "period": 2,
+              "phase": "Gas",
+              "source": "https://en.wikipedia.org/wiki/Oxygen",
+              "spectral_img": "https://en.wikipedia.org/wiki/File:Oxygen_spectre.jpg",
+              "summary": "Oxygen is a chemical element with symbol O and atomic number 8. It is a member of the chalcogen group on the periodic table and is a highly reactive nonmetal and oxidizing agent that readily forms compounds (notably oxides) with most elements. By mass, oxygen is the third-most abundant element in the universe, after hydrogen and helium.",
+              "symbol": "O",
+              "xpos": 16,
+              "ypos": 2,
+              "shells": [
+                2,
+                6
+              ],
+              "electron_configuration": "1s2 2s2 2p4",
+              "electron_affinity": 140.976,
+              "electronegativity_pauling": 3.44,
+              "ionization_energies": [
+                1313.9,
+                3388.3,
+                5300.5,
+                7469.2,
+                10989.5,
+                13326.5,
+                71330,
+                84078
+              ]
+            },
+            {
+              "id": "Zinc",
+              "appearance": "silver-gray",
+              "atomic_mass": 65.382,
+              "boil": 1180,
+              "category": "transition metal",
+              "color": null,
+              "density": 7.14,
+              "discovered_by": "India",
+              "melt": 692.68,
+              "molar_heat": 25.47,
+              "named_by": null,
+              "number": 30,
+              "period": 4,
+              "phase": "Solid",
+              "source": "https://en.wikipedia.org/wiki/Zinc",
+              "spectral_img": null,
+              "summary": "Zinc, in commerce also spelter, is a chemical element with symbol Zn and atomic number 30. It is the first element of group 12 of the periodic table. In some respects zinc is chemically similar to magnesium:its ion is of similar size and its only common oxidation state is +2.",
+              "symbol": "Zn",
+              "xpos": 12,
+              "ypos": 4,
+              "shells": [
+                2,
+                8,
+                18,
+                2
+              ],
+              "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d1 4s2",
+              "electron_affinity": -58,
+              "electronegativity_pauling": 1.65,
+              "ionization_energies": [
+                906.4,
+                1733.3,
+                3833,
+                5731,
+                7970,
+                10400,
+                12900,
+                16800,
+                19600,
+                23000,
+                26400,
+                29990,
+                40490,
+                43800,
+                47300,
+                52300,
+                55900,
+                59700,
+                67300,
+                71200,
+                179100
+              ]
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "content": [
+            {
+              "id": "Nickel",
+              "appearance": "lustrous, metallic, and silver with a gold tinge",
+              "atomic_mass": 58.69344,
+              "boil": 3003,
+              "category": "transition metal",
+              "color": null,
+              "density": 8.908,
+              "discovered_by": "Axel Fredrik Cronstedt",
+              "melt": 1728,
+              "molar_heat": 26.07,
+              "named_by": null,
+              "number": 28,
+              "period": 4,
+              "phase": "Solid",
+              "source": "https://en.wikipedia.org/wiki/Nickel",
+              "spectral_img": null,
+              "summary": "Nickel is a chemical element with symbol Ni and atomic number 28. It is a silvery-white lustrous metal with a slight golden tinge. Nickel belongs to the transition metals and is hard and ductile.",
+              "symbol": "Ni",
+              "xpos": 10,
+              "ypos": 4,
+              "shells": [
+                2,
+                8,
+                16,
+                2
+              ],
+              "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d8 4s2",
+              "electron_affinity": 111.65,
+              "electronegativity_pauling": 1.91,
+              "ionization_energies": [
+                737.1,
+                1753,
+                3395,
+                5300,
+                7339,
+                10400,
+                12800,
+                15600,
+                18600,
+                21670,
+                30970,
+                34000,
+                37100,
+                41500,
+                44800,
+                48100,
+                55101,
+                58570,
+                148700,
+                159000,
+                169400,
+                182700,
+                194000,
+                205600,
+                221400,
+                231490,
+                992718,
+                1039668
+              ]
+            },
+            {
+              "id": "Neon",
+              "appearance": "colorless gas exhibiting an orange-red glow when placed in a high voltage electric field",
+              "atomic_mass": 20.17976,
+              "boil": 27.104,
+              "category": "noble gas",
+              "color": null,
+              "density": 0.9002,
+              "discovered_by": "Morris Travers",
+              "melt": 24.56,
+              "molar_heat": null,
+              "named_by": null,
+              "number": 10,
+              "period": 2,
+              "phase": "Gas",
+              "source": "https://en.wikipedia.org/wiki/Neon",
+              "spectral_img": "https://en.wikipedia.org/wiki/File:Neon_spectra.jpg",
+              "summary": "Neon is a chemical element with symbol Ne and atomic number 10. It is in group 18 (noble gases) of the periodic table. Neon is a colorless, odorless, inert monatomic gas under standard conditions, with about two-thirds the density of air.",
+              "symbol": "Ne",
+              "xpos": 18,
+              "ypos": 2,
+              "shells": [
+                2,
+                8
+              ],
+              "electron_configuration": "1s2 2s2 2p6",
+              "electron_affinity": -116,
+              "electronegativity_pauling": null,
+              "ionization_energies": [
+                2080.7,
+                3952.3,
+                6122,
+                9371,
+                12177,
+                15238,
+                19999,
+                23069.5,
+                115379.5,
+                131432
+              ]
+            },
+            {
+              "id": "Neon",
+              "appearance": "colorless gas exhibiting an orange-red glow when placed in a high voltage electric field",
+              "atomic_mass": 20.17976,
+              "boil": 27.104,
+              "category": "noble gas",
+              "color": null,
+              "density": 0.9002,
+              "discovered_by": "Morris Travers",
+              "melt": 24.56,
+              "molar_heat": null,
+              "named_by": null,
+              "number": 10,
+              "period": 2,
+              "phase": "Gas",
+              "source": "https://en.wikipedia.org/wiki/Neon",
+              "spectral_img": "https://en.wikipedia.org/wiki/File:Neon_spectra.jpg",
+              "summary": "Neon is a chemical element with symbol Ne and atomic number 10. It is in group 18 (noble gases) of the periodic table. Neon is a colorless, odorless, inert monatomic gas under standard conditions, with about two-thirds the density of air.",
+              "symbol": "Ne",
+              "xpos": 18,
+              "ypos": 2,
+              "shells": [
+                2,
+                8
+              ],
+              "electron_configuration": "1s2 2s2 2p6",
+              "electron_affinity": -116,
+              "electronegativity_pauling": null,
+              "ionization_energies": [
+                2080.7,
+                3952.3,
+                6122,
+                9371,
+                12177,
+                15238,
+                19999,
+                23069.5,
+                115379.5,
+                131432
+              ]
+            },
+            {
+              "id": "Gallium",
+              "appearance": "silver-white",
+              "atomic_mass": 69.7231,
+              "boil": 2673,
+              "category": "post-transition metal",
+              "color": null,
+              "density": 5.91,
+              "discovered_by": "Lecoq de Boisbaudran",
+              "melt": 302.9146,
+              "molar_heat": 25.86,
+              "named_by": null,
+              "number": 31,
+              "period": 4,
+              "phase": "Solid",
+              "source": "https://en.wikipedia.org/wiki/Gallium",
+              "spectral_img": null,
+              "summary": "Gallium is a chemical element with symbol Ga and atomic number 31. Elemental gallium does not occur in free form in nature, but as the gallium(III) compounds that are in trace amounts in zinc ores and in bauxite. Gallium is a soft, silvery metal, and elemental gallium is a brittle solid at low temperatures, and melts at 29.76 °C (85.57 °F) (slightly above room temperature).",
+              "symbol": "Ga",
+              "xpos": 13,
+              "ypos": 4,
+              "shells": [
+                2,
+                8,
+                18,
+                3
+              ],
+              "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p1",
+              "electron_affinity": 41,
+              "electronegativity_pauling": 1.81,
+              "ionization_energies": [
+                578.8,
+                1979.3,
+                2963,
+                6180
+              ]
+            }
+          ]
+        }
       ]
     },
     {
-      "name": "B",
-      "level": [
-        { "number": 1, "content": [] },
-        { "number": 2, "content": [] },
-        { "number": 3, "content": [] },
-        { "number": 4, "content": [] },
-        { "number": 5, "content": [] },
-        { "number": 6, "content": [] }
+      "id": "B",
+      "levels": [
+        {
+          "number": 1,
+          "content": []
+        },
+        {
+          "number": 2,
+          "content": []
+        },
+        {
+          "number": 3,
+          "content": []
+        },
+        {
+          "number": 4,
+          "content": []
+        },
+        {
+          "number": 5,
+          "content": []
+        },
+        {
+          "number": 6,
+          "content": []
+        }
       ]
     },
     {
-      "name": "C",
-      "level": [
-        { "number": 1, "content": [] },
-        { "number": 2, "content": [] },
-        { "number": 3, "content": [] },
-        { "number": 4, "content": [] },
-        { "number": 5, "content": [] },
-        { "number": 6, "content": [] }
+      "id": "C",
+      "levels": [
+        {
+          "number": 1,
+          "content": []
+        },
+        {
+          "number": 2,
+          "content": []
+        },
+        {
+          "number": 3,
+          "content": []
+        },
+        {
+          "number": 4,
+          "content": []
+        },
+        {
+          "number": 5,
+          "content": []
+        },
+        {
+          "number": 6,
+          "content": []
+        }
       ]
     },
     {
-      "name": "D",
-      "level": [
-        { "number": 1, "content": [] },
-        { "number": 2, "content": [] },
-        { "number": 3, "content": [] },
-        { "number": 4, "content": [] },
-        { "number": 5, "content": [] },
-        { "number": 6, "content": [] }
+      "id": "D",
+      "levels": [
+        {
+          "number": 1,
+          "content": []
+        },
+        {
+          "number": 2,
+          "content": []
+        },
+        {
+          "number": 3,
+          "content": []
+        },
+        {
+          "number": 4,
+          "content": []
+        },
+        {
+          "number": 5,
+          "content": []
+        },
+        {
+          "number": 6,
+          "content": []
+        }
       ]
     },
     {
-      "name": "E",
-      "level": [
-        { "number": 1, "content": [] },
-        { "number": 2, "content": [] },
-        { "number": 3, "content": [] },
-        { "number": 4, "content": [] },
-        { "number": 5, "content": [] },
-        { "number": 6, "content": [] }
+      "id": "E",
+      "levels": [
+        {
+          "number": 1,
+          "content": []
+        },
+        {
+          "number": 2,
+          "content": []
+        },
+        {
+          "number": 3,
+          "content": []
+        },
+        {
+          "number": 4,
+          "content": []
+        },
+        {
+          "number": 5,
+          "content": []
+        },
+        {
+          "number": 6,
+          "content": []
+        }
       ]
     }
   ]

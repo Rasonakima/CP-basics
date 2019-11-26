@@ -20,14 +20,33 @@
     </div>
   </div>
   <div
-    *ngFor="let c of clist | filterName: eName"
-    class="col-*"
-    style="padding: 3px;"
+    id="cDList"
+    class="row"
+    cdkDropListOrientation="horizontal"
+    cdkDropList
+    #cDList="cdkDropList"
+    [cdkDropListData]="clist"
+    [cdkDropListConnectedTo]="[
+      'pDList-A1',
+      'pDList-A2',
+      'pDList-A3',
+      'pDList-A4',
+      'pDList-A5',
+      'pDList-A6'
+    ]"
+    (cdkDropListDropped)="onDrop($event)"
   >
-    <img
-      class="img-thumbnail"
-      src="{{ imgPlaceHolderURL }}/FFFFFF/000000?text={{ c.symbol }}"
-      alt="{{ c.name }}"
-    />
+    <div
+      class="col-*"
+      style="padding: 3px;"
+      cdkDrag
+      *ngFor="let c of clist | filterName: eName"
+    >
+      <img
+        class="img-thumbnail"
+        src="{{ imgPlaceHolderURL }}/FFFFFF/000000?text={{ c.symbol }}"
+        alt="{{ c.id }}"
+      />
+    </div>
   </div>
 </div>

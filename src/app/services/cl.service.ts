@@ -13,4 +13,12 @@ export class ClService {
   public getAll(): Observable<any> {
     return this.http.get(this.ELEMENT_API);
   }
+
+  public add(cl: any): Observable<any> {
+    return this.http.post(this.ELEMENT_API, cl);
+  }
+
+  remove(cl: any) {
+    return this.http.delete(this.ELEMENT_API + "/" + cl);
+  }
 }

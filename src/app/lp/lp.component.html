@@ -4,54 +4,36 @@
       <h5>Group {{ group }}</h5>
     </div>
     <div *ngIf="plist">
-      <div class="row">
-        <div class="col-1">
-          <div class="badge badge-warning text-wrap">{{ plist[0].number }}</div>
-        </div>
-        <div class="col">
-          <div class="card border-warning">1 1 1 1</div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-1">
-          <div class="badge badge-danger text-wrap">{{ plist[1].number }}</div>
-        </div>
-        <div class="col">
-          <div class="card border-danger">2 2 2 2</div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-1">
-          <div class="badge badge-success text-wrap">{{ plist[2].number }}</div>
-        </div>
-        <div class="col">
-          <div class="card border-success">3 3 3 3</div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-1">
-          <div class="badge badge-primary text-wrap">{{ plist[3].number }}</div>
-        </div>
-        <div class="col">
-          <div class="card border-primary">4 4 4 4</div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-1">
-          <div class="badge badge-info text-wrap">{{ plist[4].number }}</div>
-        </div>
-        <div class="col">
-          <div class="card border-info">5 5 5 5</div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-1">
-          <div class="badge badge-dark text-wrap">{{ plist[5].number }}</div>
-        </div>
-        <div class="col">
-          <div class="card border-dark">6 6 6 6</div>
-        </div>
-      </div>
+      <app-lp-row
+        [group]="groupData"
+        [row]="plist[0]"
+        theme="warning"
+      ></app-lp-row>
+      <app-lp-row
+        [group]="groupData"
+        [row]="plist[1]"
+        theme="danger"
+      ></app-lp-row>
+      <app-lp-row
+        [group]="groupData"
+        [row]="plist[2]"
+        theme="success"
+      ></app-lp-row>
+      <app-lp-row
+        [group]="groupData"
+        [row]="plist[3]"
+        theme="primary"
+      ></app-lp-row>
+      <app-lp-row
+        [group]="groupData"
+        [row]="plist[4]"
+        theme="info"
+      ></app-lp-row>
+      <app-lp-row
+        [group]="groupData"
+        [row]="plist[5]"
+        theme="dark"
+      ></app-lp-row>
     </div>
   </div>
 </div>

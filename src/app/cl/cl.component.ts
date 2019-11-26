@@ -1,5 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 import { ClService } from "../services/cl.service";
+import { DropService } from "../services/drop.service";
 
 @Component({
   selector: "app-cl",
@@ -11,11 +12,15 @@ export class ClComponent implements OnInit {
   imgPlaceHolderURL = "https://via.placeholder.com/64";
   eName = "";
 
-  constructor(private clService: ClService) {}
+  constructor(private clService: ClService, private dropService: DropService) {}
 
   ngOnInit() {
     this.clService.getAll().subscribe(data => {
       this.clist = data;
     });
+  }
+
+  onDrop(event) {
+    this.dropService.drop(event, this.clist);
   }
 }
