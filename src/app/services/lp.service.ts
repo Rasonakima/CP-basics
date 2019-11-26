@@ -26,8 +26,4 @@ export class LpService {
   public update(pl: Group): Observable<any> {
     return this.http.patch(this.GROUP_API + "/" + pl.id, pl);
   }
-
-  remove(pl: any) {
-    return this.http.delete(this.GROUP_API + "/" + pl);
-  }
 }

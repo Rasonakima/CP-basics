@@ -15,9 +15,14 @@ export class LpRowComponent implements OnInit {
 
   @Input() theme: string;
 
+  ids: string[];
+
   constructor(private dropService: DropService) {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.ids = Group.ids;
+  }
+
   onDrop(event) {
     this.dropService.drop(event, this.row, this.group);
   }

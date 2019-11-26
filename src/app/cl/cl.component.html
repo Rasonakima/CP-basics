@@ -26,14 +26,7 @@
     cdkDropList
     #cDList="cdkDropList"
     [cdkDropListData]="clist"
-    [cdkDropListConnectedTo]="[
-      'pDList-A1',
-      'pDList-A2',
-      'pDList-A3',
-      'pDList-A4',
-      'pDList-A5',
-      'pDList-A6'
-    ]"
+    [cdkDropListConnectedTo]="ids"
     (cdkDropListDropped)="onDrop($event)"
   >
     <div

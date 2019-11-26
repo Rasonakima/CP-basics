@@ -22,10 +22,20 @@ export class LpComponent implements OnInit {
     this.lpService.getByGroup(this.group).subscribe(data => {
       this.plist = data.levels;
       this.groupData = data;
+      this.generateIds("pDList-");
     });
   }
 
   onDrop(event) {
     this.dropService.drop(event, this.plist);
+  }
+
+  private generateIds(keyword: string) {
+    if (!Group.ids) {
+      Group.ids = [];
+    }
+    for (const level of this.groupData.levels) {
+      Group.ids.push(keyword + this.groupData.id + level.number.toString());
+    }
   }
 }

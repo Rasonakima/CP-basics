@@ -1,6 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 import { ClService } from "../services/cl.service";
 import { DropService } from "../services/drop.service";
+import { Group } from "./models/Group";
 
 @Component({
   selector: "app-cl",
@@ -9,6 +10,7 @@ import { DropService } from "../services/drop.service";
 })
 export class ClComponent implements OnInit {
   clist: Array<any>;
+  ids: string[];
   imgPlaceHolderURL = "https://via.placeholder.com/64";
   eName = "";
 
@@ -17,6 +19,7 @@ export class ClComponent implements OnInit {
   ngOnInit() {
     this.clService.getAll().subscribe(data => {
       this.clist = data;
+      this.ids = Group.ids;
     });
   }
 
