@@ -7,7 +7,7 @@ import { Group } from "../cl/models/Group";
   providedIn: "root"
 })
 export class LpService {
-  public GROUP_API = "//localhost:3000/groups";
+  public GROUP_API = "http://localhost:3000/groups";
 
   constructor(private http: HttpClient) {}
 

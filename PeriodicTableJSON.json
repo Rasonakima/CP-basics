@@ -4843,35 +4843,6 @@
       "levels": [
         {
           "number": 1,
-          "content": []
-        },
-        {
-          "number": 2,
-          "content": []
-        },
-        {
-          "number": 3,
-          "content": []
-        },
-        {
-          "number": 4,
-          "content": []
-        },
-        {
-          "number": 5,
-          "content": []
-        },
-        {
-          "number": 6,
-          "content": []
-        }
-      ]
-    },
-    {
-      "id": "B",
-      "levels": [
-        {
-          "number": 1,
           "content": [
             {
               "id": "Sodium",
@@ -4915,7 +4886,37 @@
                 141362,
                 159076
               ]
-            },
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "content": []
+        },
+        {
+          "number": 3,
+          "content": []
+        },
+        {
+          "number": 4,
+          "content": []
+        },
+        {
+          "number": 5,
+          "content": []
+        },
+        {
+          "number": 6,
+          "content": []
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "levels": [
+        {
+          "number": 1,
+          "content": [
             {
               "id": "Oxygen",
               "appearance": null,
@@ -5028,7 +5029,49 @@
         },
         {
           "number": 2,
-          "content": []
+          "content": [
+            {
+              "id": "Neon",
+              "appearance": "colorless gas exhibiting an orange-red glow when placed in a high voltage electric field",
+              "atomic_mass": 20.17976,
+              "boil": 27.104,
+              "category": "noble gas",
+              "color": null,
+              "density": 0.9002,
+              "discovered_by": "Morris Travers",
+              "melt": 24.56,
+              "molar_heat": null,
+              "named_by": null,
+              "number": 10,
+              "period": 2,
+              "phase": "Gas",
+              "source": "https://en.wikipedia.org/wiki/Neon",
+              "spectral_img": "https://en.wikipedia.org/wiki/File:Neon_spectra.jpg",
+              "summary": "Neon is a chemical element with symbol Ne and atomic number 10. It is in group 18 (noble gases) of the periodic table. Neon is a colorless, odorless, inert monatomic gas under standard conditions, with about two-thirds the density of air.",
+              "symbol": "Ne",
+              "xpos": 18,
+              "ypos": 2,
+              "shells": [
+                2,
+                8
+              ],
+              "electron_configuration": "1s2 2s2 2p6",
+              "electron_affinity": -116,
+              "electronegativity_pauling": null,
+              "ionization_energies": [
+                2080.7,
+                3952.3,
+                6122,
+                9371,
+                12177,
+                15238,
+                19999,
+                23069.5,
+                115379.5,
+                131432
+              ]
+            }
+          ]
         },
         {
           "number": 3,
@@ -5092,7 +5135,37 @@
                 71330,
                 84078
               ]
-            },
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "content": []
+        },
+        {
+          "number": 3,
+          "content": []
+        },
+        {
+          "number": 4,
+          "content": []
+        },
+        {
+          "number": 5,
+          "content": []
+        },
+        {
+          "number": 6,
+          "content": []
+        }
+      ]
+    },
+    {
+      "id": "E",
+      "levels": [
+        {
+          "number": 1,
+          "content": [
             {
               "id": "Sodium",
               "appearance": "silvery white metallic",
@@ -5137,35 +5210,6 @@
               ]
             }
           ]
-        },
-        {
-          "number": 2,
-          "content": []
-        },
-        {
-          "number": 3,
-          "content": []
-        },
-        {
-          "number": 4,
-          "content": []
-        },
-        {
-          "number": 5,
-          "content": []
-        },
-        {
-          "number": 6,
-          "content": []
-        }
-      ]
-    },
-    {
-      "id": "E",
-      "levels": [
-        {
-          "number": 1,
-          "content": []
         },
         {
           "number": 2,

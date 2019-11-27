@@ -6,7 +6,7 @@ import { Observable } from "rxjs";
   providedIn: "root"
 })
 export class ClService {
-  public ELEMENT_API = "//localhost:3000/elements";
+  public ELEMENT_API = "http://localhost:3000/elements";
 
   constructor(private http: HttpClient) {}
 
