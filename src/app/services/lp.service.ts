@@ -24,6 +24,6 @@ export class LpService {
   }
 
   public update(pl: Group): Observable<any> {
-    return this.http.patch(this.GROUP_API + "/" + pl.id, pl);
+    return this.http.put(this.GROUP_API + "/" + pl.id, pl);
   }
 }

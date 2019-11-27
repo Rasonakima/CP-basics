@@ -26,10 +26,6 @@ export class LpComponent implements OnInit {
     });
   }
 
-  onDrop(event) {
-    this.dropService.drop(event, this.plist);
-  }
-
   private generateIds(keyword: string) {
     if (!Group.ids) {
       Group.ids = [];

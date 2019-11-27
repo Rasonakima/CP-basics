@@ -13,6 +13,7 @@
         [cdkDropListData]="row.content"
         [cdkDropListConnectedTo]="ids"
         (cdkDropListDropped)="onDrop($event)"
+        (cdkDropListExited)="onExit($event)"
       >
         <div class="col-1" cdkDrag *ngFor="let c of row.content">
           {{ c.id }}

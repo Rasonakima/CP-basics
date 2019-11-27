@@ -24,6 +24,6 @@ export class ClComponent implements OnInit {
   }
 
   onDrop(event) {
-    this.dropService.drop(event, this.clist);
+    this.dropService.drop(event, this.clist).subscribe();
   }
 }

@@ -24,6 +24,10 @@ export class LpRowComponent implements OnInit {
   }
 
   onDrop(event) {
-    this.dropService.drop(event, this.row, this.group);
+    this.dropService.drop(event, this.row, this.group).subscribe();
+  }
+
+  onExit(event) {
+    this.dropService.exit(event, this.row, this.group);
   }
 }
