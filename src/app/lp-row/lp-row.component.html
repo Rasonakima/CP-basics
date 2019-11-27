@@ -15,8 +15,17 @@
         (cdkDropListDropped)="onDrop($event)"
         (cdkDropListExited)="onExit($event)"
       >
-        <div class="col-1" cdkDrag *ngFor="let c of row.content">
-          {{ c.id }}
+        <div
+          class="col-*"
+          style="padding: 3px;"
+          cdkDrag
+          *ngFor="let c of row.content"
+        >
+          <img
+            class="img-thumbnail"
+            src="{{ imgPlaceHolderURL }}/FFFFFF/000000?text={{ c.symbol }}"
+            alt="{{ c.id }}"
+          />
         </div>
         <img style="opacity: 0; width: 0px;" *ngIf="row.content.length === 0" />
       </div>

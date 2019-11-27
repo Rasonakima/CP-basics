@@ -17,6 +17,8 @@ export class LpRowComponent implements OnInit {
 
   ids: string[];
 
+  imgPlaceHolderURL = "https://via.placeholder.com/64";
+
   constructor(private dropService: DropService) {}
 
   ngOnInit() {

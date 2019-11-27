@@ -31,6 +31,8 @@ export class DropService {
     data: any,
     group?: Group
   ): Observable<any[]> {
+    this.origin = true;
+
     if (event.container == event.previousContainer) {
       data.content.splice(
         event.currentIndex,
@@ -49,8 +51,6 @@ export class DropService {
         return null;
       } else {
         if (group) {
-          this.origin = true;
-
           this.originData.content.splice(event.previousIndex, 1);
           this.originGroup.levels.splice(
             this.originGroup.levels.indexOf(this.originData),
@@ -63,9 +63,6 @@ export class DropService {
 
           let originUpdate = this.lpService.update(this.originGroup);
           let update = this.lpService.update(group);
-
-          //console.log(this.originGroup);
-          //console.log(group);
 
           return forkJoin([originUpdate, update]);
         }
