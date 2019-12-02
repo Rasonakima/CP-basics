@@ -13,7 +13,7 @@
         [cdkDropListData]="row.content"
         [cdkDropListConnectedTo]="ids"
         (cdkDropListDropped)="onDrop($event)"
-        (cdkDropListExited)="onExit($event)"
+        (cdkDropListExited)="onExit()"
       >
         <div
           class="col-*"
@@ -27,7 +27,11 @@
             alt="{{ c.id }}"
           />
         </div>
-        <img style="opacity: 0; width: 0px;" *ngIf="row.content.length === 0" />
+        <img
+          style="opacity: 0; width: 0px;"
+          *ngIf="row.content.length === 0"
+          alt="placeholder"
+        />
       </div>
     </div>
   </div>

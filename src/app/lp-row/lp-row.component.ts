@@ -1,7 +1,8 @@
 import { Component, OnInit, Input } from "@angular/core";
 import { DropService } from "../services/drop.service";
-import { Group } from "../cl/models/Group";
-import { Level } from "../cl/models/Level";
+import { Group } from "../models/Group";
+import { Level } from "../models/Level";
+import { first } from "rxjs/operators";
 
 @Component({
   selector: "app-lp-row",
@@ -26,10 +27,13 @@ export class LpRowComponent implements OnInit {
   }
 
   onDrop(event) {
-    this.dropService.drop(event, this.row, this.group).subscribe();
+    this.dropService
+      .drop(event, this.row, this.group)
+      .pipe(first())
+      .subscribe();
   }
 
-  onExit(event) {
-    this.dropService.exit(event, this.row, this.group);
+  onExit() {
+    this.dropService.exit(this.row, this.group);
   }
 }

@@ -2,10 +2,8 @@ import { Injectable } from "@angular/core";
 import { CdkDragDrop, CdkDragExit } from "@angular/cdk/drag-drop";
 import { ClService } from "./cl.service";
 import { LpService } from "./lp.service";
-import { Level } from "../cl/models/Level";
-import { Group } from "../cl/models/Group";
+import { Group } from "../models/Group";
 import { Observable, forkJoin } from "rxjs";
-import { equal } from "assert";
 import { stringify } from "querystring";
 
 @Injectable({
@@ -16,9 +14,9 @@ export class DropService {
   private originData: any;
   private originGroup: Group;
 
-  constructor(private clService: ClService, private lpService: LpService) {}
+  constructor(private lpService: LpService) {}
 
-  public exit(event: CdkDragExit<string[]>, data: any, group?: Group) {
+  public exit(data: any, group?: Group) {
     if (this.origin) {
       this.originData = data;
       this.originGroup = group;

@@ -1,7 +1,8 @@
 import { Component, OnInit } from "@angular/core";
 import { ClService } from "../services/cl.service";
 import { DropService } from "../services/drop.service";
-import { Group } from "./models/Group";
+import { Group } from "../models/Group";
+import { first } from "rxjs/operators";
 
 @Component({
   selector: "app-cl",
@@ -24,6 +25,9 @@ export class ClComponent implements OnInit {
   }
 
   onDrop(event) {
-    this.dropService.drop(event, this.clist).subscribe();
+    this.dropService
+      .drop(event, this.clist)
+      .pipe(first())
+      .subscribe();
   }
 }

@@ -1,8 +1,8 @@
 import { Component, OnInit, Input } from "@angular/core";
 import { LpService } from "../services/lp.service";
 import { DropService } from "../services/drop.service";
-import { Group } from "../cl/models/Group";
-import { Level } from "../cl/models/Level";
+import { Group } from "../models/Group";
+import { Level } from "../models/Level";
 
 @Component({
   selector: "app-lp",
@@ -16,7 +16,7 @@ export class LpComponent implements OnInit {
 
   plist: Array<Level>;
 
-  constructor(private lpService: LpService, private dropService: DropService) {}
+  constructor(private lpService: LpService) {}
 
   ngOnInit() {
     this.lpService.getByGroup(this.group).subscribe(data => {

@@ -5079,52 +5079,6 @@
           "number": 2,
           "content": [
             {
-              "id": "Neon",
-              "appearance": "colorless gas exhibiting an orange-red glow when placed in a high voltage electric field",
-              "atomic_mass": 20.17976,
-              "boil": 27.104,
-              "category": "noble gas",
-              "color": null,
-              "density": 0.9002,
-              "discovered_by": "Morris Travers",
-              "melt": 24.56,
-              "molar_heat": null,
-              "named_by": null,
-              "number": 10,
-              "period": 2,
-              "phase": "Gas",
-              "source": "https://en.wikipedia.org/wiki/Neon",
-              "spectral_img": "https://en.wikipedia.org/wiki/File:Neon_spectra.jpg",
-              "summary": "Neon is a chemical element with symbol Ne and atomic number 10. It is in group 18 (noble gases) of the periodic table. Neon is a colorless, odorless, inert monatomic gas under standard conditions, with about two-thirds the density of air.",
-              "symbol": "Ne",
-              "xpos": 18,
-              "ypos": 2,
-              "shells": [
-                2,
-                8
-              ],
-              "electron_configuration": "1s2 2s2 2p6",
-              "electron_affinity": -116,
-              "electronegativity_pauling": null,
-              "ionization_energies": [
-                2080.7,
-                3952.3,
-                6122,
-                9371,
-                12177,
-                15238,
-                19999,
-                23069.5,
-                115379.5,
-                131432
-              ]
-            }
-          ]
-        },
-        {
-          "number": 3,
-          "content": [
-            {
               "id": "Potassium",
               "appearance": "silvery gray",
               "atomic_mass": 39.09831,
@@ -5177,6 +5131,87 @@
               ]
             },
             {
+              "id": "Neon",
+              "appearance": "colorless gas exhibiting an orange-red glow when placed in a high voltage electric field",
+              "atomic_mass": 20.17976,
+              "boil": 27.104,
+              "category": "noble gas",
+              "color": null,
+              "density": 0.9002,
+              "discovered_by": "Morris Travers",
+              "melt": 24.56,
+              "molar_heat": null,
+              "named_by": null,
+              "number": 10,
+              "period": 2,
+              "phase": "Gas",
+              "source": "https://en.wikipedia.org/wiki/Neon",
+              "spectral_img": "https://en.wikipedia.org/wiki/File:Neon_spectra.jpg",
+              "summary": "Neon is a chemical element with symbol Ne and atomic number 10. It is in group 18 (noble gases) of the periodic table. Neon is a colorless, odorless, inert monatomic gas under standard conditions, with about two-thirds the density of air.",
+              "symbol": "Ne",
+              "xpos": 18,
+              "ypos": 2,
+              "shells": [
+                2,
+                8
+              ],
+              "electron_configuration": "1s2 2s2 2p6",
+              "electron_affinity": -116,
+              "electronegativity_pauling": null,
+              "ionization_energies": [
+                2080.7,
+                3952.3,
+                6122,
+                9371,
+                12177,
+                15238,
+                19999,
+                23069.5,
+                115379.5,
+                131432
+              ]
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "content": [
+            {
+              "id": "Hassium",
+              "appearance": null,
+              "atomic_mass": 269,
+              "boil": null,
+              "category": "transition metal",
+              "color": null,
+              "density": 40.7,
+              "discovered_by": "Gesellschaft für Schwerionenforschung",
+              "melt": 126,
+              "molar_heat": null,
+              "named_by": null,
+              "number": 108,
+              "period": 7,
+              "phase": "Solid",
+              "source": "https://en.wikipedia.org/wiki/Hassium",
+              "spectral_img": null,
+              "summary": "Hassium is a chemical element with symbol Hs and atomic number 108, named after the German state of Hesse. It is a synthetic element (an element that can be created in a laboratory but is not found in nature) and radioactive; the most stable known isotope, 269Hs, has a half-life of approximately 9.7 seconds, although an unconfirmed metastable state, 277mHs, may have a longer half-life of about 130 seconds. More than 100 atoms of hassium have been synthesized to date.",
+              "symbol": "Hs",
+              "xpos": 8,
+              "ypos": 7,
+              "shells": [
+                2,
+                8,
+                18,
+                32,
+                32,
+                14,
+                2
+              ],
+              "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 6d6 7s2",
+              "electron_affinity": null,
+              "electronegativity_pauling": null,
+              "ionization_energies": []
+            },
+            {
               "id": "Oganesson",
               "appearance": null,
               "atomic_mass": 294,
@@ -5215,7 +5250,88 @@
         },
         {
           "number": 4,
-          "content": []
+          "content": [
+            {
+              "id": "Magnesium",
+              "appearance": "shiny grey solid",
+              "atomic_mass": 24.305,
+              "boil": 1363,
+              "category": "alkaline earth metal",
+              "color": null,
+              "density": 1.738,
+              "discovered_by": "Joseph Black",
+              "melt": 923,
+              "molar_heat": 24.869,
+              "named_by": null,
+              "number": 12,
+              "period": 3,
+              "phase": "Solid",
+              "source": "https://en.wikipedia.org/wiki/Magnesium",
+              "spectral_img": "https://en.wikipedia.org/wiki/File:Magnesium_Spectra.jpg",
+              "summary": "Magnesium is a chemical element with symbol Mg and atomic number 12. It is a shiny gray solid which bears a close physical resemblance to the other five elements in the second column (Group 2, or alkaline earth metals) of the periodic table:they each have the same electron configuration in their outer electron shell producing a similar crystal structure. Magnesium is the ninth most abundant element in the universe.",
+              "symbol": "Mg",
+              "xpos": 2,
+              "ypos": 3,
+              "shells": [
+                2,
+                8,
+                2
+              ],
+              "electron_configuration": "1s2 2s2 2p6 3s2",
+              "electron_affinity": -40,
+              "electronegativity_pauling": 1.31,
+              "ionization_energies": [
+                737.7,
+                1450.7,
+                7732.7,
+                10542.5,
+                13630,
+                18020,
+                21711,
+                25661,
+                31653,
+                35458,
+                169988,
+                189368
+              ]
+            },
+            {
+              "id": "Ununennium",
+              "appearance": null,
+              "atomic_mass": 315,
+              "boil": 630,
+              "category": "unknown, but predicted to be an alkali metal",
+              "color": null,
+              "density": 3,
+              "discovered_by": "GSI Helmholtz Centre for Heavy Ion Research",
+              "melt": null,
+              "molar_heat": null,
+              "named_by": null,
+              "number": 119,
+              "period": 8,
+              "phase": "Solid",
+              "source": "https://en.wikipedia.org/wiki/Ununennium",
+              "spectral_img": null,
+              "summary": "Ununennium, also known as eka-francium or simply element 119, is the hypothetical chemical element with symbol Uue and atomic number 119. Ununennium and Uue are the temporary systematic IUPAC name and symbol respectively, until a permanent name is decided upon. In the periodic table of the elements, it is expected to be an s-block element, an alkali metal, and the first element in the eighth period.",
+              "symbol": "Uue",
+              "xpos": 1,
+              "ypos": 8,
+              "shells": [
+                2,
+                8,
+                18,
+                32,
+                32,
+                18,
+                8,
+                1
+              ],
+              "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 6d10 7s2 7p6 8s1",
+              "electron_affinity": 63.87,
+              "electronegativity_pauling": null,
+              "ionization_energies": []
+            }
+          ]
         },
         {
           "number": 5,
