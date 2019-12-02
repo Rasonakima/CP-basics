@@ -4960,7 +4960,55 @@
         },
         {
           "number": 2,
-          "content": []
+          "content": [
+            {
+              "id": "Phosphorus",
+              "appearance": "colourless, waxy white, yellow, scarlet, red, violet, black",
+              "atomic_mass": 30.9737619985,
+              "boil": null,
+              "category": "polyatomic nonmetal",
+              "color": null,
+              "density": 1.823,
+              "discovered_by": "Hennig Brand",
+              "melt": null,
+              "molar_heat": 23.824,
+              "named_by": null,
+              "number": 15,
+              "period": 3,
+              "phase": "Solid",
+              "source": "https://en.wikipedia.org/wiki/Phosphorus",
+              "spectral_img": null,
+              "summary": "Phosphorus is a chemical element with symbol P and atomic number 15. As an element, phosphorus exists in two major forms—white phosphorus and red phosphorus—but due to its high reactivity, phosphorus is never found as a free element on Earth. Instead phosphorus-containing minerals are almost always present in their maximally oxidised state, as inorganic phosphate rocks.",
+              "symbol": "P",
+              "xpos": 15,
+              "ypos": 3,
+              "shells": [
+                2,
+                8,
+                5
+              ],
+              "electron_configuration": "1s2 2s2 2p6 3s2 3p3",
+              "electron_affinity": 72.037,
+              "electronegativity_pauling": 2.19,
+              "ionization_energies": [
+                1011.8,
+                1907,
+                2914.1,
+                4963.6,
+                6273.9,
+                21267,
+                25431,
+                29872,
+                35905,
+                40950,
+                46261,
+                54110,
+                59024,
+                271791,
+                296195
+              ]
+            }
+          ]
         },
         {
           "number": 3,
@@ -5075,7 +5123,95 @@
         },
         {
           "number": 3,
-          "content": []
+          "content": [
+            {
+              "id": "Potassium",
+              "appearance": "silvery gray",
+              "atomic_mass": 39.09831,
+              "boil": 1032,
+              "category": "alkali metal",
+              "color": null,
+              "density": 0.862,
+              "discovered_by": "Humphry Davy",
+              "melt": 336.7,
+              "molar_heat": 29.6,
+              "named_by": null,
+              "number": 19,
+              "period": 4,
+              "phase": "Solid",
+              "source": "https://en.wikipedia.org/wiki/Potassium",
+              "spectral_img": "https://en.wikipedia.org/wiki/File:Potassium_Spectrum.jpg",
+              "summary": "Potassium is a chemical element with symbol K (derived from Neo-Latin, kalium) and atomic number 19. It was first isolated from potash, the ashes of plants, from which its name is derived. In the Periodic table, potassium is one of seven elements in column (group) 1 (alkali metals):they all have a single valence electron in their outer electron shell, which they readily give up to create an atom with a positive charge - a cation, and combine with anions to form salts.",
+              "symbol": "K",
+              "xpos": 1,
+              "ypos": 4,
+              "shells": [
+                2,
+                8,
+                8,
+                1
+              ],
+              "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s1",
+              "electron_affinity": 48.383,
+              "electronegativity_pauling": 0.82,
+              "ionization_energies": [
+                418.8,
+                3052,
+                4420,
+                5877,
+                7975,
+                9590,
+                11343,
+                14944,
+                16963.7,
+                48610,
+                54490,
+                60730,
+                68950,
+                75900,
+                83080,
+                93400,
+                99710,
+                444880,
+                476063
+              ]
+            },
+            {
+              "id": "Oganesson",
+              "appearance": null,
+              "atomic_mass": 294,
+              "boil": 350,
+              "category": "unknown, predicted to be noble gas",
+              "color": null,
+              "density": 4.95,
+              "discovered_by": "Joint Institute for Nuclear Research",
+              "melt": null,
+              "molar_heat": null,
+              "named_by": null,
+              "number": 118,
+              "period": 7,
+              "phase": "Solid",
+              "source": "https://en.wikipedia.org/wiki/Oganesson",
+              "spectral_img": null,
+              "summary": "Oganesson is IUPAC's name for the transactinide element with the atomic number 118 and element symbol Og. It is also known as eka-radon or element 118, and on the periodic table of the elements it is a p-block element and the last one of the 7th period. Oganesson is currently the only synthetic member of group 18.",
+              "symbol": "Og",
+              "xpos": 18,
+              "ypos": 7,
+              "shells": [
+                2,
+                8,
+                18,
+                32,
+                32,
+                18,
+                8
+              ],
+              "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 6d10 7s2 7p6",
+              "electron_affinity": 5.40318,
+              "electronegativity_pauling": null,
+              "ionization_energies": []
+            }
+          ]
         },
         {
           "number": 4,
@@ -5140,7 +5276,55 @@
         },
         {
           "number": 2,
-          "content": []
+          "content": [
+            {
+              "id": "Phosphorus",
+              "appearance": "colourless, waxy white, yellow, scarlet, red, violet, black",
+              "atomic_mass": 30.9737619985,
+              "boil": null,
+              "category": "polyatomic nonmetal",
+              "color": null,
+              "density": 1.823,
+              "discovered_by": "Hennig Brand",
+              "melt": null,
+              "molar_heat": 23.824,
+              "named_by": null,
+              "number": 15,
+              "period": 3,
+              "phase": "Solid",
+              "source": "https://en.wikipedia.org/wiki/Phosphorus",
+              "spectral_img": null,
+              "summary": "Phosphorus is a chemical element with symbol P and atomic number 15. As an element, phosphorus exists in two major forms—white phosphorus and red phosphorus—but due to its high reactivity, phosphorus is never found as a free element on Earth. Instead phosphorus-containing minerals are almost always present in their maximally oxidised state, as inorganic phosphate rocks.",
+              "symbol": "P",
+              "xpos": 15,
+              "ypos": 3,
+              "shells": [
+                2,
+                8,
+                5
+              ],
+              "electron_configuration": "1s2 2s2 2p6 3s2 3p3",
+              "electron_affinity": 72.037,
+              "electronegativity_pauling": 2.19,
+              "ionization_energies": [
+                1011.8,
+                1907,
+                2914.1,
+                4963.6,
+                6273.9,
+                21267,
+                25431,
+                29872,
+                35905,
+                40950,
+                46261,
+                54110,
+                59024,
+                271791,
+                296195
+              ]
+            }
+          ]
         },
         {
           "number": 3,

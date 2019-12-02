@@ -25,7 +25,7 @@
     cdkDropListOrientation="horizontal"
     cdkDropList
     #cDList="cdkDropList"
-    [cdkDropListData]="clist"
+    [cdkDropListData]="clist | filterName: eName"
     [cdkDropListConnectedTo]="ids"
     (cdkDropListDropped)="onDrop($event)"
   >
