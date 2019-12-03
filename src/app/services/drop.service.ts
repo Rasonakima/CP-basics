@@ -1,9 +1,8 @@
 import { Injectable } from "@angular/core";
-import { CdkDragDrop, CdkDragExit } from "@angular/cdk/drag-drop";
-import { ClService } from "./cl.service";
+import { CdkDragDrop } from "@angular/cdk/drag-drop";
 import { LpService } from "./lp.service";
 import { Group } from "../models/Group";
-import { Observable, forkJoin } from "rxjs";
+import { Observable, forkJoin, BehaviorSubject } from "rxjs";
 import { stringify } from "querystring";
 
 @Injectable({
@@ -14,7 +13,19 @@ export class DropService {
   private originData: any;
   private originGroup: Group;
 
-  constructor(private lpService: LpService) {}
+  private deletable: BehaviorSubject<boolean>;
+
+  constructor(private lpService: LpService) {
+    this.deletable = new BehaviorSubject<boolean>(false);
+  }
+
+  public canDelete(): Observable<boolean> {
+    return this.deletable.asObservable();
+  }
+
+  public start() {
+    this.deletable.next(true);
+  }
 
   public exit(data: any, group?: Group) {
     if (this.origin) {
@@ -30,8 +41,18 @@ export class DropService {
     group?: Group
   ): Observable<any[]> {
     this.origin = true;
+    this.deletable.next(false);
 
-    if (event.container == event.previousContainer) {
+    if (!data && !group) {
+      this.originData.content.splice(event.previousIndex, 1);
+      this.originGroup.levels.splice(
+        this.originGroup.levels.indexOf(this.originData),
+        1,
+        this.originData
+      );
+      let originUpdate = this.lpService.update(this.originGroup);
+      return originUpdate;
+    } else if (event.container == event.previousContainer) {
       data.content.splice(
         event.currentIndex,
         0,

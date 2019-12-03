@@ -1,13 +1,32 @@
 <app-navbar></app-navbar>
 <div class="container-fluid">
-  <div class="row"><router-outlet></router-outlet></div>
+  <!--<div class="row"><router-outlet></router-outlet></div>-->
   <div class="row">
     <div class="col"><app-lp group="A"></app-lp></div>
-
     <div class="col"><app-lp group="B"></app-lp></div>
     <div class="col"><app-lp group="C"></app-lp></div>
     <div class="col"><app-lp group="D"></app-lp></div>
     <div class="col"><app-lp group="E"></app-lp></div>
+  </div>
+  <div
+    [ngStyle]="{
+      opacity: canDelete ? '100' : '0',
+      height: canDelete ? 'auto' : '0'
+    }"
+    class="row"
+  >
+    <div class="col">
+      <div class="card border-danger btn btn-outline-danger text-center">
+        <div
+          class="card-body"
+          id="delete"
+          cdkDropList
+          (cdkDropListDropped)="onDrop($event)"
+        >
+          DELETE
+        </div>
+      </div>
+    </div>
   </div>
   <div class="row">
     <app-cl></app-cl>

@@ -19,6 +19,7 @@
           class="col-*"
           style="padding: 3px;"
           cdkDrag
+          (cdkDragStarted)="onStart()"
           *ngFor="let c of row.content"
         >
           <img
